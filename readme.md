@@ -58,7 +58,7 @@
 人生不可能每一步都是正确的，选错了就选错了呗，不要一遍一遍的后悔，也不要总是责怪以前自己，因为当时你也在雾里，也很迷茫，所以不必回头看，蔷薇谢了明年还会再开，总会有人陪你看不同的风景，开心点！向前看，别回头。  
 
 ![image](image/2024041502.jpg)
-[别遗憾 往前走 别回头](video/2024042702.mp4)
+[别遗憾 往前走 别回头](video/2024042702.mp4)   
 [别遗憾 往前走 别回头(online)](https://github.com/heyebei/emotion/issues/1#issuecomment-2080421376)
 
 ---
@@ -178,7 +178,7 @@
 
 ![image](image/2024042602.jpg)  
 
-[你要是足够了解我 肯定会厌弃我的](video/2024042701.mp4)
+[你要是足够了解我 肯定会厌弃我的](video/2024042701.mp4)   
 [你要是足够了解我 肯定会厌弃我的(online)](https://github.com/heyebei/emotion/issues/1#issuecomment-2080420870)
 <!-- <video width="" height="" controls> 
   <source src="video/你要是足够了解我 肯定会厌弃我的.mp4" type="video/mp4"> 
