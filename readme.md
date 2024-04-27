@@ -59,6 +59,7 @@
 
 ![image](image/2024041502.jpg)
 [别遗憾 往前走 别回头](video/2024042702.mp4)
+[别遗憾 往前走 别回头(online)](https://github.com/heyebei/emotion/issues/1#issuecomment-2080421376)
 
 ---
 
@@ -178,7 +179,7 @@
 ![image](image/2024042602.jpg)  
 
 [你要是足够了解我 肯定会厌弃我的](video/2024042701.mp4)
-
+[你要是足够了解我 肯定会厌弃我的(online)](https://github.com/heyebei/emotion/issues/1#issuecomment-2080420870)
 <!-- <video width="" height="" controls> 
   <source src="video/你要是足够了解我 肯定会厌弃我的.mp4" type="video/mp4"> 
 </video>  -->
