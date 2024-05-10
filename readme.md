@@ -379,3 +379,14 @@
 ![image](image/2024051001.jpg)
 
 ----
+
+
+**2024年05月10日**
+<!DOCTYPE html>
+<span> 
+<span style="color: red;">爱情不靠猜测，太沉默怎知你爱我
+<br>
+</br>
+</span>
+
+![image](image/2024051002.jpg)
