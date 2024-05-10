@@ -384,7 +384,7 @@
 **2024年05月10日**
 <!DOCTYPE html>
 <span> 
-<span style="color: red;">爱情不靠猜测，太沉默怎知你爱我
+<span style="color: rgba(255, 0, 0,0.8);">爱情不靠猜测，太沉默怎知你爱我
 <br>
 </br>
 </span>
