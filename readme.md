@@ -1,3 +1,13 @@
+<br>
+<div style="width: 100%; height: 100%; color: rgba(255,0,0,0.8); text-align: center;">
+希望有一天那个人也会告诉我这里的一切他都看过
+</div>
+<div style="width: 100%; height: 100%; color: rgba(250,0,0,0.6); text-align: right;">
+---2024年05月26日
+</div>
+<br>
+<br>
+
 **2024年04月13日**  
 
 我喜欢  
