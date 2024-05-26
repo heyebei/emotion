@@ -68,8 +68,8 @@
 人生不可能每一步都是正确的，选错了就选错了呗，不要一遍一遍的后悔，也不要总是责怪以前自己，因为当时你也在雾里，也很迷茫，所以不必回头看，蔷薇谢了明年还会再开，总会有人陪你看不同的风景，开心点！向前看，别回头。  
 
 ![image](image/2024041502.jpg)
-[别遗憾 往前走 别回头](video/2024042702.mp4)   
-[别遗憾 往前走 别回头(online)](https://github.com/heyebei/emotion/issues/1#issuecomment-2080421376)
+<!-- [别遗憾 往前走 别回头](video/2024042702.mp4)    -->
+[别遗憾 往前走 别回头](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/Eey0eQiPIFJKl6_1PH9aKIIBD-tVwv9zdROc3g3HJ53mkA?e=dgdgse)
 
 ---
 
@@ -189,8 +189,7 @@
 
 ![image](image/2024042602.jpg)  
 
-[你要是足够了解我 肯定会厌弃我的](video/2024042701.mp4)   
-[你要是足够了解我 肯定会厌弃我的(online)](https://github.com/heyebei/emotion/issues/1#issuecomment-2080420870)
+[你要是足够了解我 肯定会厌弃我的](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/Ebg08QzOM7tIjutdRnmfDpgBMmaWIaKs05_wCBVLU4C7rA?e=E6lJsp)
 <!-- <video width="" height="" controls> 
   <source src="video/你要是足够了解我 肯定会厌弃我的.mp4" type="video/mp4"> 
 </video>  -->
@@ -201,10 +200,10 @@
 
 亲爱的，你知道吗，我本可以义无反顾奔向我爱的人，可你对我的态度，我又怎么敢义无反顾的奔向你呢。不是不爱，而是你给我的感觉就是如果我义无反顾奔向你的话，我会输的一败涂地   
 
-[![iamge](image/2024042701.jpg)](audio/Forever%20and%20Always-Lonely%20Music%20Group.mp3)
+[![iamge](image/2024042701.jpg)](https://heyebei-my.sharepoint.com/:u:/g/personal/heyebei_heyebei_onmicrosoft_com/EWc5tm57o0hCtSknkG_E5AQBE2V02CP6cmEasqpDieXZVg?e=khl9tm)
 
 <!-- ​<audio id="audio" controls="" preload="none">
-      <source id="mp3" src="audio/Forever and Always-Lonely Music Group.mp3">
+      <source id="mp4" src="https://heyebei-my.sharepoint.com/:u:/g/personal/heyebei_heyebei_onmicrosoft_com/EWc5tm57o0hCtSknkG_E5AQBE2V02CP6cmEasqpDieXZVg?e=khl9tm">
 </audio> -->
 
 ----
