@@ -631,3 +631,11 @@
 
 ----
 
+**2024年06月02日**    
+
+时光匆匆，总有人后悔，他们总是说如果能够回到过去，可我从不后悔。我爱当下！那些胆小脆弱，那些惊慌恐惧，以及那些依然保留的柔软善良，我都不想重来。    
+
+[![image](image/2024060201.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EU2GD0YeSuRNv6L3gtTRWckBridxXXOx0iWHv4_AV7eqYg?e=VOHV5P)
+
+----
+
