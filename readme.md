@@ -622,3 +622,12 @@
 [![image](image/2024053101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EbP0uWTfsKBEpvYCwaaSUgcByyVDcuN1k-IABBtFu9-fSw?e=YzG7Ik)
 
 ----
+
+**2024年06月01日**    
+
+一个温暖的人，是因为有另一个温暖的怀抱    
+
+[![image](image/2024060101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ee9Smt9P4PJJkzNmVkXy7r4BsRUqzwC8rnKjOeSBgfPE1Q?e=d7bxcM)
+
+----
+
