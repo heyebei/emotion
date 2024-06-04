@@ -648,3 +648,26 @@
 [![image](image/2024060401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQldNd0D4bZCs_v2Cfwz5ksBU1Y_9JJlHGL-jOEPBcd8ow?e=UgAQ6G)
 
 ----
+
+**2024年06月04日**    
+
+我怕爱人
+畏惧于他的锋芒 隐没在他的身旁
+我怕爱人
+我怕爱上的是他的皮肉
+我怕爱上的是他的一时风华
+我怕爱上的是一个我对于另一个我的怜悯
+我总是想
+会不会浪费对方的年华
+会不会太过儿戏
+总是设身处地的为对方考虑
+说白了
+我怕爱自己
+我们都是感情里的怯懦者
+当我们无法学会爱自己
+就无法开始爱别人
+
+
+[![image](image/2024060402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESwWIkqmvitPnww7Q-rBqrsBjV7m12nw5O9XJKHCmjRyiA?e=Yi0e6K)
+
+----
