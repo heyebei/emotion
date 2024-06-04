@@ -639,3 +639,12 @@
 
 ----
 
+**2024年06月04日**    
+
+我相信这个世界上有着朴素的、单纯的、真诚美好的爱，但我从不觉得自己是一个幸运的人。     
+可若真的有一天有幸，能让我捡到那一束光，纵使终会归还给太阳，我也会紧紧抓住。    
+所以做一个勇敢的人！本自具足，莫向外求！
+
+[![image](image/2024060401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQldNd0D4bZCs_v2Cfwz5ksBU1Y_9JJlHGL-jOEPBcd8ow?e=UgAQ6G)
+
+----
