@@ -679,3 +679,11 @@
 [![image](image/2024060601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERFHbDBV7z9NpDoAR25u6YUB1010J7hSv-EbTE2oK3gOUA?e=kNXLE0)
 
 ----
+
+**2024年06月06日**    
+
+有时候我会经常在想，像我这样的人真的会有一个人，翻山越海而来，然后用真心来爱我吗？可能吧。    
+可是我也清醒的知道，从小到大好像从来没有什么东西真正属于我，也从来没有人坚定的选择过我。    
+所以任何一个人哪怕给我一点真心我也会想要用尽全力的把他留在我身边，我会千倍百倍的想要对他好。可是，我也忘了，我的这些好对于对方来说也许只是一种负担。    
+
+[![image](image/2024060602.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVVMxqqHSZBBgF1Go_EnPHgBuZ1_8HgOMcT0wAB8zWGg4Q?e=e1U5fR)
