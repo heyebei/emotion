@@ -671,3 +671,11 @@
 [![image](image/2024060402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESwWIkqmvitPnww7Q-rBqrsBjV7m12nw5O9XJKHCmjRyiA?e=Yi0e6K)
 
 ----
+
+**2024年06月06日**   
+
+两两无言时，因为我的纠缠要你平衡那么多事，突然心疼你，我想你永远开心、永远明媚。当你开心，要我们没有交集才可以，那么我很庆幸还能在最后为你做点事。落日晚风尽头，你！永远自由！    
+
+[![image](image/2024060601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERFHbDBV7z9NpDoAR25u6YUB1010J7hSv-EbTE2oK3gOUA?e=kNXLE0)
+
+----
