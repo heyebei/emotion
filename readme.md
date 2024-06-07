@@ -687,3 +687,20 @@
 所以任何一个人哪怕给我一点真心我也会想要用尽全力的把他留在我身边，我会千倍百倍的想要对他好。可是，我也忘了，我的这些好对于对方来说也许只是一种负担。    
 
 [![image](image/2024060602.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVVMxqqHSZBBgF1Go_EnPHgBuZ1_8HgOMcT0wAB8zWGg4Q?e=e1U5fR)
+
+----
+
+**2024年06月07日**    
+
+这一路的艰辛只为了能见上你一面    
+可这一路的艰辛在见到你的那一刻就觉得不算什么了    
+因为爱 因为你 所以这一切都值得    
+去的时候一路上都在期待   
+可返程的路上只有孤独   
+爱这段路聚少离多   
+山高路远全凭良心
+
+
+[![image](image/2024060701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETUX0n3KD71IqTVk0HSl1r0BdW4G1dqTtvf8oU6IrkCriw?e=D5h1dt)
+
+----
