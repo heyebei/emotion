@@ -1,13 +1,19 @@
 <br>
 <div style="width: 100%; height: 100%; color: rgba(255,0,0,0.8); text-align: center;">
+本链接于2024年06月09日暂时停止更新。
+如今，我已经找到了能和我一起共享，欢喜忧愁的人了，所有的情绪已不再由我一人承担，他会担心会心疼我，也会时常告诉我，他对我的爱意。
+可能是我给他的安全感不够，所以，暂时停止更新。恢复时间不定。
+</div>
+
+<!-- <br>
+<div style="width: 100%; height: 100%; color: rgba(255,0,0,0.8); text-align: center;">
 希望有一天有人也会告诉我这里的一切他都看过
 </div>
 <div style="width: 100%; height: 100%; color: rgba(250,0,0,0.6); text-align: right;">
 ---2024年05月26日
 </div>
 <br>
-<br>
-
+<br> -->
 **2024年04月13日**  
 
 我喜欢  
