@@ -13,7 +13,7 @@
 **2024年06月01日**   
 
 （某某军）第一次见面，真的非常紧张，因为刚刚剪完头发觉得丑，本来不太想见面，奈何对象盛情难却，于是在他们学校门口匆匆见了一面。现在想起来才发现那天太紧张了，连照片都没有拍。  
-不过晚上回来，和对象打视频了.图片就不给看了。   
+不过晚上回来，和对象打视频了。图片就不给看了。   
 
 <!-- [![image](image/Screenshot_20240601_224751_com.tencent.mm.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Eel4tf93ZvVFrXz3j3Z3P18B2jeov08lYvd9QzjgCrE6jw?e=kaJ8fo) -->
 
