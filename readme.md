@@ -717,3 +717,5 @@
 永远不要美化那些你没有选择的路，你没有得到的人，永远先爱自己。生命那么短暂，没有所谓的标准答案和完美人生，眼下的便是最好的！其余的，人生自有安排！
 
 [![image](image/2024060901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeW7GeitXdFLvaMVgOAFY88BQ1XMCb5n3lrUvzweBsR8zw?e=O6PMJZ)
+
+----
