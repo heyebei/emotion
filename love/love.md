@@ -22,6 +22,7 @@
 
 **2024年06月10日**    
 
+（某某军）    
 端午节和对象见面喽，虽然没有吃到对象亲手包的粽子但是和对象一起吃了海底捞
 [![iamge](image/IMG_20240610_124018.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ed73Qi_p_otHr8uCpUPgfd0BUn0Tyer6p2jUJ_EBg09voQ?e=PEVSx4)
 晚上回学校的路上，拍到了好看的晚霞
