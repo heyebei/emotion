@@ -29,3 +29,13 @@
 [![iamge](image/IMG_20240610_191306.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZMkX5j1-2FKsip715T0Jn0BG9lSS4xHc7rM1a8xcIzNGw?e=Gw1vMS)
 
 ----
+
+**2024年06月11日**      
+
+（某某军）
+今天，我宝有点点忙，没见到他，有点点不开心。    
+原来很多人都会给我宝私发抖音，我也不是很开心。     
+不过下周一就考完试喽，还是挺开心的。      
+
+----
+
