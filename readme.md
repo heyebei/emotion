@@ -1,13 +1,13 @@
 <br>
 <div style="width: 100%; height: 100%; color: rgba(255,0,0,0.8); text-align: center;">
-本链接于2024年06月09日暂时停止更新。恢复时间不定。
+<!-- 本链接于2024年06月09日暂时停止更新。恢复时间不定。 -->
 <br>
 如今，我已经找到了能和我一起共享，欢喜忧愁的人了，所有的情绪已不再由我一人承担，他会担心会心疼我，也会时常告诉我，他对我的爱意。
 <br>
 可能是我给他的安全感不够，也可能是我的方式就选错了，我不应该奢望对方从蛛丝马迹中去寻找真我，所以，我选择和他沟通，和他分享真我，抬起头，张开我们张不开的口，说出我们平时说不出口的话，真正的生活才开始。
 </div>
 <br>
-<!-- <br>
+<br>
 <div style="width: 100%; height: 100%; color: rgba(255,0,0,0.8); text-align: center;">
 希望有一天有人也会告诉我这里的一切他都看过
 </div>
@@ -15,7 +15,7 @@
 ---2024年05月26日
 </div>
 <br>
-<br> -->
+<br>
 
 
 ----
@@ -816,3 +816,15 @@
 [![image](image/2024061301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcHGx5NNfgZOpats52crfFMBqljFqcvMVAJ6F8caWn_CfQ?e=HgqGJ3)
 
 ----
+
+**2024年06月13日**    
+
+<!-- 在爱情这条路上，我好像在寻找些什么，又好像在等待些什么。我一直保持着一种观望的态度，不敢在一开始就掏出自己的一整颗心，害怕受伤，也害怕对方受伤。    
+一直很喜欢一句话“你给我的，就是你想要的”，可是这句话在有些关系面前真的不适合，也许我们的过分磅礴的爱意，对方根本就承受不了，我们所认为的或者是对方所看见的我们的付出 也许只是我们寻求心安的一种愚蠢的行为，过分消耗自己的爱意，过分期望最终都不好收场。    
+所以，停止自我安慰，才是学会爱人的第一步     -->
+我只想和你有个好结局  仅此而已
+
+[![image](image/2024061302.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYFtD0Xo8DpHsZw5xxBcb5oBPZ_V2_ZdLnmStGms1GjEhA?e=ajL9Bl)
+
+----
+
