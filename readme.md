@@ -809,3 +809,10 @@
 
 ----
 
+**2024年06月13日**    
+
+在这个满地都是套路敷衍的世界里，光是诚意这两个字就显得尤为珍贵。现在的人都在试探，都在掩饰，都在权衡，都在欲擒故纵，都醉翁之意不在酒。如果你身边有一个炙热的、坦荡的、真诚的、天真的喜欢你的人，我想那就是带着最大的诚意来的。    
+
+[![image](image/2024061301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcHGx5NNfgZOpats52crfFMBqljFqcvMVAJ6F8caWn_CfQ?e=HgqGJ3)
+
+----
