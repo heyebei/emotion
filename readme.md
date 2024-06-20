@@ -828,3 +828,10 @@
 
 ----
 
+**2024年06月20日**    
+
+自由，不是让谁喜欢你，而是喜不喜欢都随你。就做自己吧，总有人因为是你而爱你，在这个细水长流的日子里，不讲永远，只看眼前。    
+
+[![image](image/2024062001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaUIpN1l779KgdU5px9zqdMBCWMgkR0aMPIr9aCd2umNlg?e=AVBPGa)
+
+----
