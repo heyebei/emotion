@@ -845,3 +845,9 @@
 [![image](image/2024062101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EU2g29AZxGRLu_drSTvkEFkBUC_weCkdHcY1ujUVVDjtWw?e=Huv18V)
 
 ----
+
+**2024年06月21日**    
+
+我是一个特别拧巴的人，认准的事就会一路撞到南墙。这些年自己就像是风前的烛，雨中的灯，摇摇欲坠。我从不强求别人拯救我，只是求他们别熄灭我.    
+
+----
