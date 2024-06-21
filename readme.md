@@ -835,3 +835,11 @@
 [![image](image/2024062001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaUIpN1l779KgdU5px9zqdMBCWMgkR0aMPIr9aCd2umNlg?e=AVBPGa)
 
 ----
+
+**2024年06月21日**    
+
+一重山有一重山的错落，我有我的平仄。一步路有一步路的沟壑，我也有我的执着。    
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1705373579&bvid=BV14T421v72p&cid=1569948724&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+----
