@@ -858,10 +858,10 @@
 
 如果你想要好好的谈一段恋爱
 那你一定要记得
-爱是无数个平淡生活里
-的风雨共济而不是随口一句简单的海誓山盟
-是你心知肚明外面的世界精彩绝伦但是
-都不如坚定的选择后成为那一个人的偏爱和例外
+爱是无数个平淡生活里的风雨共济
+而不是随口一句简单的海誓山盟
+是你心知肚明外面的世界精彩绝伦
+但是都不如坚定的选择后成为那一个人的偏爱和例外
 
 [![image](image/2024062301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETSE-lCMgzVHjsBT36Yd34oBPOcq8XThKwPEgs1ussWANA?e=BmVR7f)
 
