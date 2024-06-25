@@ -866,3 +866,13 @@
 [![image](image/2024062301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETSE-lCMgzVHjsBT36Yd34oBPOcq8XThKwPEgs1ussWANA?e=BmVR7f)
 
 ----
+
+**2024年06月25日**    
+
+所以 一个人一旦活明白 大概就是 没有特别想要的 也没有特别不想要的 都可以 我都行 你随意    
+他很大度 也很包容 但只有他知道 他只是早就对任何关系做好随时会散的准备 你在的时候 他真心待你 你若要走 他也绝不留你 不是不爱 而是他心知肚明 知道要走的留不住的 这就好像“日落西山非我意” 既如此 倒不如体面一点 把别人还给别人 自己余生的山高水长留给自己    
+————让花成花,让树成树,这是他的尊严    
+
+[![immage](image/2024062501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUi3IiZbGaZGpGzvvlEKuyIBqWA20TO_WakUumZ3pueIGA?e=3xcbEe)
+
+----
