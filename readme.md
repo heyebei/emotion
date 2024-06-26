@@ -876,3 +876,11 @@
 [![immage](image/2024062501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUi3IiZbGaZGpGzvvlEKuyIBqWA20TO_WakUumZ3pueIGA?e=3xcbEe)
 
 ----
+
+**2024年06月26日**    
+
+突然想起塞林格的一句话  “有些人觉得爱就是性 是婚姻 是清晨六点的吻和一堆孩子 或许爱就是这样 莱斯特小姐 但你知道我怎么想吗 我觉得爱是想要触碰却又收回的手    
+
+[![iamge](image/2024062601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUoW3_fAZ85Ii6MZJNaGdG4BpqFcRMDnHdueTg7xO1ldYg?e=sfF0s1)
+
+----
