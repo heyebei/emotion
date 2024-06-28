@@ -884,3 +884,11 @@
 [![iamge](image/2024062601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUoW3_fAZ85Ii6MZJNaGdG4BpqFcRMDnHdueTg7xO1ldYg?e=sfF0s1)
 
 ----
+
+**2024年06月28日**    
+
+听过三观最正的一句话：喜欢就说喜欢，生气了就告诉对方为什么生气，做错了就诚恳的道歉，不要猜来猜去，不要阴阳怪气，更不要口是心非，在一起的时间太宝贵了，不能在奇奇怪怪的问题上消磨彼此的爱意，我们都要坦诚的去表达爱    
+
+[![image](image/2024062801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVgtJuER0TFDqtzEwkfABVkBJdYkf_jWZz5dAc2CkjjTkA?e=bdHKe8)
+
+----
