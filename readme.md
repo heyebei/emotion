@@ -892,3 +892,10 @@
 [![image](image/2024062801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVgtJuER0TFDqtzEwkfABVkBJdYkf_jWZz5dAc2CkjjTkA?e=bdHKe8)
 
 ----
+
+**2024年06月30日**    
+
+事情压不死人，但情绪会，我没有多生气，只是很失望，就那么一瞬间，心一下就空了，没有资格质问什么，态度足说明一切，情绪卡在喉咙，说不出来，也咽不下去，打了很多字，又默默的删了，有些东西说不清，那些无处宣泄的委屈，终究还是藏在了心里
+
+----
+
