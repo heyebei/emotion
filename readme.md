@@ -909,3 +909,11 @@
 
 ----
 
+**2024年07月01日**   
+
+香奈儿今年的广告语："等你再见到我的时候 我会变得成熟稳重 极致温柔 你想要的样子我什么都有了 唯独只是眼中再无你"    
+
+[![image](image/2024070101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQdHPCILnYlBnJ1ZVmHcN9oBvOG4T796rq6AMLuPNcPScA?e=RdWlDI)
+
+----
+
