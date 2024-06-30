@@ -897,5 +897,15 @@
 
 事情压不死人，但情绪会，我没有多生气，只是很失望，就那么一瞬间，心一下就空了，没有资格质问什么，态度足说明一切，情绪卡在喉咙，说不出来，也咽不下去，打了很多字，又默默的删了，有些东西说不清，那些无处宣泄的委屈，终究还是藏在了心里
 
+[![image](image/2024063001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Eb_MWmfBvVlCjc1I_OsrycwB5hkvr9paO6yLJ4m6CAuOOQ?e=CGEm5l)
+
+----
+
+**2024年06月30日**    
+
+人有时候会突然不快乐了，突然被记忆里的某个细节揪住，突然陷入深深的沉默不想说话    
+
+[![image](image/2024063002.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EdiAgkg48plGsIL4hqOffGABCFpce2Zu3G7sgGBntZO96Q?e=5bDmLA)
+
 ----
 
