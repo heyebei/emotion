@@ -1042,3 +1042,12 @@
 [![image](image/2024072401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETzMxbszLvJLvicNa6HgumMBRbH66L8gCFk987vgIVt8KQ?e=dtpH9b)
 
 ----
+
+**2024年07月27日**    
+
+人生里很多事，必须经过很长一段时间才能书写。那是暴风中被卷起的一页又一页的纸，那时无论如何伸手都是抓不住的。只能等风停了，你才能蹑手蹑脚地走过去，拾掇起上面的秘密。
+
+
+[![image](image/2024072701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfwFmret8eZEtX_p6IfrRYoBZ1CbNVUoc8VAp8RmQfM4bg?e=nbn60i)
+
+----
