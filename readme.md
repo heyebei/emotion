@@ -1051,3 +1051,13 @@
 [![image](image/2024072701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfwFmret8eZEtX_p6IfrRYoBZ1CbNVUoc8VAp8RmQfM4bg?e=nbn60i)
 
 ----
+
+**2024年07月28日**    
+
+
+我们这一生会遇见许多人，也许隔着山海，也许近在咫尺。但大多数人却只是擦肩而过，所以那些占据我人生岁月长久的人，我都渴望留下许多记忆。四季辗转，人间会发生许许多多的意外，我不确定自己能活多久，或许10年、或许20年、也或许明天……    
+我的本意呀是一直陪着你。我无法形容浪漫，只知它总有似情人般的娇羞可爱，而有你，我才感知鲜活；有你，我才愿意接受自己的平庸！
+
+[![image](image/2024072801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeJxmKohbf1Mo7MFIMOWbi8Bveur9ms4JPlC97QFJf2wDg?e=ryPvtP)
+
+----
