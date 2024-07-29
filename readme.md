@@ -1061,3 +1061,11 @@
 [![image](image/2024072801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeJxmKohbf1Mo7MFIMOWbi8Bveur9ms4JPlC97QFJf2wDg?e=ryPvtP)
 
 ----
+
+**2024年07月29日**    
+
+我永远不要做别人退而求其次的选择！！！
+
+[![image](image/2024072901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUfHuNp9qZBNq9h758EIpaoB56yjw6KOqxIvTF5wVHxDZA?e=dEhOg9)
+
+----
