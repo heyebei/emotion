@@ -1069,3 +1069,17 @@
 [![image](image/2024072901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUfHuNp9qZBNq9h758EIpaoB56yjw6KOqxIvTF5wVHxDZA?e=dEhOg9)
 
 ----
+
+**2024年07月31日**    
+
+人间失格里有这样句话
+仅一夜之间我的心判若两人
+意思是
+"爱未必会因为没有回应而消失
+但一定会因为反复失望而衰竭
+缝缝补补
+直到有一天我不想要了"
+
+[![image](image/2024073101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EWhpNJfzbJhAlpc25HsgPPgBF6eDXgc7Urd-wqpyHODx-Q?e=uD07Jz)
+
+----
