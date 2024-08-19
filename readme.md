@@ -1092,3 +1092,11 @@
 [![image](image/2024081001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EXEcAXZdUB5EmxKGxoUrFT4BWyOrYTTiYKLdyt8ANTiNcQ?e=Uftgke)
 
 ----
+
+**2024年08月19日**    
+
+这一路走来，好像身边有很多人，好像一直都只有我一个人，当真正发现这件事的时候也难免哽咽。大概每个人都会有很多心事，如果一定需要讲的话，那我一定会流泪的。所以我只是希望我可以安安静静的一个人呆着，叹气也好，哭泣也好，慢慢的、好好的活着。    
+
+[![image](image/2024081901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcsQ7Lu_Ux9BvWf-A5Xuss4BJJiFjK2CeG3KKSo1Nib2Xg?e=X25B2e)    
+
+----
