@@ -1108,3 +1108,13 @@
 [![image](image/2024082301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZwbQCqd-whCj-PvOi6ztl4BKk1p2pPFSNJtAfD6JC9M6Q?e=94Dcdz)
 
 ----
+
+**2024年08月24日**    
+
+其实我们或多或少都将对方规划进了自己的未来，以至于某天突然就没有了以后，深感自己的未来突然出现了空缺，所以不断的思念。    
+和一个人渐行渐远，一开始是不愿相信的，需要走过很长很长的路，反反复复的听某一首歌，然后在某一个深夜，突然就发现那个人早已找不到了。    
+相逢是意外，离别是常态！
+
+[![image](image/2024082401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeQZwDon-ThIjK8Eh2ueOa8B-0qouuEYI2Sr-s0FHbC8lw?e=vbJicF)
+
+----
