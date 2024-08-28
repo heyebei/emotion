@@ -1126,3 +1126,5 @@
 [![image](image/2024082801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESl6StGMOtRLvvcqEU3nkAkB5tSPIOglFPkpSTE9voz1Kw?e=6C6nnk)
 
 ----
+
+转眼秋天便来了，秋雨淹没了没来得及实现的承诺，还有没能书写的下文。恍惚间有些错觉，我在风中良久，呆望着远方，年少时不得之物，终是困住这一生。愿我们都能做一个外表柔软但内心硬气的人。
