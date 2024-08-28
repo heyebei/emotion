@@ -1118,3 +1118,11 @@
 [![image](image/2024082401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeQZwDon-ThIjK8Eh2ueOa8B-0qouuEYI2Sr-s0FHbC8lw?e=vbJicF)
 
 ----
+
+**2024年08月28日**    
+
+[变化这个东西太奇怪了，你形容不出来，但你就是知道一切已经不一样了。很多人在情绪不稳定时，会通过表达爱意来替代表达沮丧。如果你的朋友突然向你表达了爱意和思念，多半是她被情绪击溃了，所以才向你靠拢，此刻她正在坠落，而你可能是她唯一信赖的人。 ](https://heyebei-my.sharepoint.com/:u:/g/personal/heyebei_heyebei_onmicrosoft_com/EWVQZFyA5qRPo3lFIiz7p1ABq02RRegu1iFISOtdJDQSqw?e=dDNpfq)
+
+[![image](image/2024082801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESl6StGMOtRLvvcqEU3nkAkB5tSPIOglFPkpSTE9voz1Kw?e=6C6nnk)
+
+----
