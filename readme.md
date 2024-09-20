@@ -34,6 +34,8 @@
 比结束更痛苦的，就是拖泥带水地耗着。说爱吧，耗尽了所有希望，说不爱吧，又在某个瞬间发了疯地想挽回。一边崩溃，一边自愈，反反复复，一边清醒，一边糊涂，一边说放下，一边又无可救药地说想念    
 别再靠近我了，也别来了解我，我没有你想象中那么好，而且我不喜欢来了又走的人，这样真的很烦。
 
+
+[![image](image/2024090601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUIoluBlho5Fm16TK0ZvAB8BGF1MRRAMClttwXs2fOsCAA?e=wZC8Ji)
 ----
 
 --2024年9月7日
@@ -41,18 +43,21 @@
 陪伴的人教会你爱，路过的人教会你成长。我不需要一个随时会把我抛弃的人教我长大，以后我的人生中，若不能是坚定的选择我，长久的陪伴我，那就别来了，别说爱我，别说喜欢我，你看人心这么易变，是可以说不爱就不爱的。    
 你只是出现了一下，可是你不知道，我要花多长时间舔舐伤口。
 
+[![image](image/2024090701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfVJNbxCbOVGtumcdZEaBuUBL3OX39BzwZ0IdmkvjDvutw?e=Tqu46s)
 ----
 
 --2024年9月8日    
 
 偏偏不懂幸福的人最幸福 反而怀揣着真心的人一直掉眼泪 没有爱的话这一生也太长了 可是有爱的话这一生又太哽咽了    
 
+[![image](image/2024090801.png)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUxqqHjQBeJOs4Sw_cldQHcBx0ufUkVF4xC-nSrK0j9cTg?e=lw2ZZA)
 ----
 
 --2024年9月9日    
 
 后来才明白 活成自己想象中的样子真的很难    
 
+[![image](image/2024090901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EShb23C0uZpPhrjykKLhhDgBISlasXcMnZ8UzQPmAuTvJg?e=uEo7ew)
 ----
 
 --2024年9月10日    
@@ -63,6 +68,7 @@
 
 [我想我们之间的恩怨也应该就此了结](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/EfN-o2wMbdZNlrVZ-mKhoC0BL-l4HnhCve-_1Qsxj_XAow?e=1hwZCO)
 
+[![image](image/2024091001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfJn2flqK75FpfCnol8TKw8BUkGjeVQZ1eHYi-VlbDecVQ?e=9A37wV)
 ----
 
 --2024年9月16日     
@@ -74,7 +80,9 @@
 --2024年9月18日    
 
 我承认当他们面对高考的学生来和我谈论情爱的时候，我的第一反应是告诉他们要好好学习专注于高考的那一刻，我才惊觉年少时射出的子弹此刻确实已经正中我的眉心    
-是啊，偏偏长大两个字孤单到连偏旁都没有
+是啊，偏偏长大两个字孤单到连偏旁都没有    
+
+[![image](image/2024091801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUX3xtlO1FtFk6Uqsvlv7B0B6vff16gby-WJ3hw1oNM7Gw?e=McpHhF)
 
 ----
 
@@ -83,7 +91,9 @@
 
 心情很好。但总是会在开心的时候突然想起你，我在想应该是想与你分享快乐，但那一刻会突然暗淡下来，为不知所措的生疏。我也曾一度怀疑你的怀疑，不清楚自己所要表达的爱是什么，是爱情？友情？亲情？或许就该像我曾经说过那样:“人与人之间的感情包括但不仅限于友情、亲情、爱情，爱有千百种形态，而我对你便是特别的一种。    
 
-我默默的收藏着青春岁月里的秘密，像小孩藏在口袋里的一颗糖，沮丧的时候才会撕开糖纸闻一闻，告诉自己还有明天，还有明天……来日方长！    
+我默默的收藏着青春岁月里的秘密，像小孩藏在口袋里的一颗糖，沮丧的时候才会撕开糖纸闻一闻，告诉自己还有明天，还有明天……来日方长！   
+
+[![image](image/2024092002.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYDbsBrC8H9IoLMBBX0SsVgBqPr6tK1DWJWkg5RQBWmVzQ?e=WGKdYa) 
 
 ----
 
