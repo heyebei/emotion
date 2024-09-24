@@ -97,7 +97,22 @@
 
 ----
 
+--2024年9月24日    
 
+爱是贯穿三万昼夜的伏笔，起始于普罗旺斯的十二世纪，穿过半个行星的流离，也只为在你眼中的氤氲里孕育出柔情。我太执迷不悟了，我不知道该用何种语气表明那满是酸梅味的日记，那陷入两难又冠冕堂皇的道理，连带着稚气未泯都充满了哽咽。    
+
+[![image](image/2024092401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESqx0F9L11dJjIEL3rPFWUEBwXVNbobOSYo9WuM6dzuHIQ?e=uzivJf)    
+
+----
+
+--2024年9月24日     
+
+读到罗兰巴特的一句经典:过去一直以为我是因为没有得到爱而痛苦，而实际上是因为我以为别人是爱我的而痛苦。    
+我讨厌已读不回，讨厌没有下文的聊天记录，讨厌敷衍的回答，讨厌不真诚的人。重视是相互的，如果经常敷衍我，我就不想同你讲话了，所以你很忙吗？那么我们就不再讲话了。    
+
+[![image](image/2024092402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERT3EBhBFTNAsdLaQcy5n1YB9g0d2c2w8P5Qf17hr-Jexg?e=2wBTGF)    
+
+----
 
 
 
