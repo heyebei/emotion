@@ -114,6 +114,13 @@
 
 ----
 
+--2024年10月15日    
+
+命运教我独善其身，旧人教我凉薄断情，我是曾被泥流冲垮的堤岸，亦是曾被春天浇融的雪水，不再执着于浩荡江海，不再痴念于隆冬退守，我与我周旋久，我令我过重山。
+
+[![image](image/2024101501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EdZW4-TqL7ZFk2Qeh2rQazsBXZWev0GlszqK2xosd7c61g?e=Ecgg6J)    
+
+----
 
 
 
