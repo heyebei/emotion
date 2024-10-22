@@ -125,34 +125,46 @@
 
 --2024年10月22日    
 
+我在感情上的愚钝，就像是门窗紧闭的屋子，虽然爱情的脚步在屋前走过来又走过去，而且我也听到了，可我觉得那是路过的脚步，那是走向别人的脚步。直到有一天，这脚步停在了这里，然后门铃响了，而我依然后知后觉，最后，门窗依然紧闭。    
 
-“我在感情上的愚钝，就像是门窗紧闭的屋子，虽然爱情的脚步在屋前走过来又走过去，而且我也听到了，可我觉得那是路过的脚步，那是走向别人的脚步。直到有一天，这脚步停在了这里，然后门铃响了，而我依然后知后觉，最后，门窗依然紧闭。”
+[![image](image/2024102201.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EXmvCtbk9rZOjKUWWp28OAcBOuCFTa06mJRqX3gM2tvfjA?e=jBbruW)    
+
+----
+
+--2024年10月22日    
+
+我只愿意和呆着舒服的人待在一起。什么都不想做，什么都不说，心里是安稳的、放松的，我呆在我的角落里自言自语，我的朋友理解我，包容我，认同我。
+
+[![image](image/2024102202.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeoREdKrilhGhthn0zZS9pEB9xcSrjpnsZsK23pU7H0C3g?e=I50l9u)
+
+----
+
+--2024年10月22日    
+
+我平静的接受我爱的人不怎么爱我，或者不爱我这件事，我很难过，但这份难过也让我明白，我更应该好好爱自己。
+
+[![image](image/2024102203.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeUNJczHJN1MkU2VxTFEdfoBFd4Qm03OJCbBUJNcpAMItQ?e=qvCw2I)
+
+----
+
+--2024年10月22日    
+
+你不是失去了爱的人，你只是撕去了日历中那几页认真和真诚！
+
+
+[![image](image/2024102204.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZeHcpJHUllChqgvnMoIRHMB2-RH9U7GKRtv5pgYr0m5gg?e=5GMuJq)
+
+----
 
 
 
-“我只愿意和呆着舒服的人待在一起。什么都不想做，什么都不说，心里是安稳的、放松的，我呆在我的角落里自言自语，我的朋友理解我，包容我，认同我。”
 
 
+<!-- --
 
-“我平静的接受我爱的人不怎么爱我，或者不爱我这件事，我很难过，但这份难过也让我明白，我更应该好好爱自己。”
+[![image]()]()
 
-
-
-“你不是失去了爱的人，你只是撕去了日历中那几页认真和真诚！”
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---- -->
 
 
 
