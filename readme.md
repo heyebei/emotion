@@ -236,8 +236,13 @@
 
 ----
 
+--2024年11月8日    
 
+如果你对某一件事的结束感到悲伤 那就说明这件事情的过程一定很美好  如果你足够勇敢  让自己用更广阔的视角 看待一切 你就会发现结局未必悲伤 那只是意味着 下一件美好的事情即将开始
 
+[![image](image/2024110801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZMDc16MhktPpVvzqdmYsL0BbHkLwhJH-9nJGVyT-FX2ew?e=LqMPkf)
+
+----
 <!-- --
 
 [![image]()]()
