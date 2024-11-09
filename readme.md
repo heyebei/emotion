@@ -243,6 +243,19 @@
 [![image](image/2024110801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZMDc16MhktPpVvzqdmYsL0BbHkLwhJH-9nJGVyT-FX2ew?e=LqMPkf)
 
 ----
+
+--2024年11月9日
+
+人的一生应该是万里河山，有无数个往来的过客。有人给山添色，有人使日月无光，有人带来江流，有人带走四季。人生漫长，愿你半生所求，终成枕边月色！   
+
+[![image](image/2024110901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZ5wbFl_fCNKsCY4aQ9qAIoB3Z4XxIZhBK-d1f-XDDU6RQ?e=x45TdX)
+
+----
+
+
+
+
+
 <!-- --
 
 [![image]()]()
