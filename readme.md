@@ -252,7 +252,13 @@
 
 ----
 
+--2024年11月10日    
 
+“我总以为度过了眼前的障碍就会迎来新的生活，很多年以后我终于明白，这些障碍就是我的生活。”
+
+[![image](image/2024111001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETXvhUt5TFxLu6aAFy4-ejwBxgbEM2Zi3UK_v3WmkiWqDg?e=ygTsI1)
+
+----
 
 
 
