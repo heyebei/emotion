@@ -269,6 +269,36 @@
 
 ----
 
+--2024年11月11日    
+
+你太固执了，你总是说以前，但是你忘了人都是会变的    
+
+[![image](image/2024111102.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Eaqmqc0ltKlIgksUKCq2dKABeK4Uh6ipa-B2WfV8KGbWsQ?e=zcEnMw)
+
+----
+
+--2024年11月13日    
+
+你渴望得到太多，却总被一些人，一些事强迫留在原地，甚至开始后退，你也挣扎过，你痛苦的流泪却始终一言不发。所以我向往的自由，是付出百倍千倍的枷锁也未必能得到的东西！    
+
+[![image](image/2024111301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYtILJxWLjBEh1Ezgn2eqgcBrNxe6XlNCfEz-YfGr10DGg?e=TPoPb1)
+
+----
+
+--2024年11月15日    
+
+祝我得太阳照拂，一如荒野疯长的草，长成如愿的自己。    
+
+[![image](image/2024111501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ET7XdC1ib_9Hn7FLlBsmGn8BJenfWBOxjLPm80LBrGTOIw?e=EaQn1E)
+
+----
+
+
+
+
+
+
+
 
 <!-- --
 
