@@ -7,9 +7,9 @@
 [访问原页面请点击](locked.md)
 
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX0hwMERlWFpzQXZMVW5iZGt0VmFuV0Q4TUtWb3FacDJwdFpHWg==#heyebei/emotion.git&Date" frameBorder="0">
+## Star History
 
-</iframe>    
+[![Star History Chart](https://api.star-history.com/svg?repos=heyebei/emotion.git&type=Date)](https://star-history.com/#heyebei/emotion.git&Date)   
 
 
 
