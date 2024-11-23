@@ -7,6 +7,12 @@
 [访问原页面请点击](locked.md)
 
 
+<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX0hwMERlWFpzQXZMVW5iZGt0VmFuV0Q4TUtWb3FacDJwdFpHWg==#heyebei/emotion.git&Date" frameBorder="0"></iframe>
+
+
+
+
+
 <!-- ——2024年9月3日
 
 昨天一位陌生网友问了我一个问题，我能放下吗？我也在想我能放下吗，我能释怀吗？
