@@ -358,6 +358,16 @@
 
 ----
 
+--2024年11月25日
+
+后来我发现，我失去的每一份月亮都是我该失去的，此去经年，山是山，我是我，明知不可为而为之，是我最大的诚意
+
+后来我发现，我错过的每一颗星辰，都是我该错过的，物换星移，路是路，我是我，明知不可得仍追寻，是我最深的执着
+
+[![image](image/2024112501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ec-3x3JuWLlJnJQMta55MmYBFZSgNnhpH9-0jOuL4hZNtQ?e=1d8TFX)
+
+----
+
 
 <!-- --
 
