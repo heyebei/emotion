@@ -368,6 +368,15 @@
 
 ----
 
+--2024年11月28日
+
+我是一个很需要被爱的人，所以我也很用心的爱着别人。我在期待着他们温柔且有力的爱回来，但我的期待总是扑空。
+
+[![image](image/2024112801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EXppYFvUhxxLiiJZq1YQ8ioBfOAW1nMz-X1Ym2ddFgjehA?e=CazdYo)
+
+----
+
+
 
 <!-- --
 
