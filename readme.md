@@ -376,8 +376,13 @@
 
 ----
 
+--2024年12月3日
 
+《百年孤独》里有一句话:比起有人左右的日子，我更喜欢无人问津的时光。其实独处并不是孤独，是让人把心腾出足够的位置，在内心深处遇到最真的自己。人到中年要求都变得很高，如果达不到不如不要，我太知道自己想要什么了，我也知道什么能满足自己，只是合适的太难。人生中大多事不由己，所以修一颗平常心去面对得失
 
+[![image](image/2024120301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ec8evAT0zJxKoHtYN3yFf2QBoY8Ltb_Ly91__EHu3EfXyA?e=QeuATe)
+
+----
 <!-- --
 
 [![image]()]()
