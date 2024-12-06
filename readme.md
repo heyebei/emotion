@@ -383,6 +383,16 @@
 [![image](image/2024120301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ec8evAT0zJxKoHtYN3yFf2QBoY8Ltb_Ly91__EHu3EfXyA?e=QeuATe)
 
 ----
+
+--2024年12月6日
+
+先解决心情，再解决事情，人生的意义在于独自穿过悲喜，然后依旧勇敢积极。
+
+美的方式有很多，每个人都应该先好好认识一下自己，发现喜欢自己的那些部分，让它们发光发亮，而不是竭尽所能去追求自己基因里不存在却被大众认为美的东西，然后在求而不得的纠结里平凡一生。
+
+[![image](image/2024120601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVDin16S2IJNol_zyZZtKWkB5hm4NruEogzdgue4V_Eikg?e=sfOneW)
+
+----
 <!-- --
 
 [![image]()]()
