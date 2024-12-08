@@ -393,6 +393,15 @@
 [![image](image/2024120601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVDin16S2IJNol_zyZZtKWkB5hm4NruEogzdgue4V_Eikg?e=sfOneW)
 
 ----
+
+--2024年12月8日
+
+一生很短不过朝暮与春秋，一生所求不过平安于自由。一想到以后不会再有人这么真诚又勇敢的爱你，我就觉得赢的是我。时间是最好的东西，它会提醒你这个世界上所有的东西都会过期！
+
+[![image](image/2024120801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQNpUdetNnpEus0sDf0dFDcBBqt0LaujZT3cYjXmHdsChA?e=6ADaEv)
+
+----
+
 <!-- --
 
 [![image]()]()
