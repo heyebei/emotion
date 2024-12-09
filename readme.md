@@ -402,6 +402,17 @@
 
 ----
 
+--2024年12月9日
+
+《加缪手记》中有一段话:“我们并不一定要把心事对人说，但对自己所爱的人就不同了，因为这种情况下说出了心事并不是为了表现自己，而是为了付出。”所以亲爱的，我希望在即将走进的新的一年里能够了解你，被了解，然后被你依赖，成为一个有担当的成年人。
+
+世间懂得最难得，需以慈悲修渡，且长久的保有深情和坚毅。所以愿有面对宿命的勇敢，也有面对爱的柔软。
+
+[![image](image/2024120901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeSHhX5NYxVBivFlg3_M2B0BbrHc9rqUt4D3KXPrN1FSpA?e=Z3Agk1)
+
+----
+
+
 <!-- --
 
 [![image]()]()
