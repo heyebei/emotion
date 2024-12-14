@@ -412,6 +412,16 @@
 
 ----
 
+--2024年12月14日
+
+再回首凝望过去，你会发现那些曾经无法面对的困难，终会克服；那些曾经以为无法跨越的泥泞，终会过去；那些曾以为过不去的难关，终会渡过；那些曾经忘不了的遗憾，终会释怀。
+
+人的脆弱和坚强，都将超乎你自己的想象。
+
+[![image](image/2024121401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETvWXDeKarJKh-NTf_WhJu0B9dmCu-GctB675pD3LotVjg?e=PdYFCj)
+
+----
+
 
 <!-- --
 
