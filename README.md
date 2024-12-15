@@ -6,12 +6,9 @@
 
 [访问原页面请点击](locked.md)
 
-
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=heyebei/emotion.git&type=Date)](https://star-history.com/#heyebei/emotion.git&Date)   
-
-
+[![Star History Chart](https://api.star-history.com/svg?repos=heyebei/emotion.git&type=Date)](https://star-history.com/#heyebei/emotion.git&Date)
 
 
 
