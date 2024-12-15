@@ -419,7 +419,23 @@
 
 ----
 
+--2024年12月16日
 
+会焦虑，但也要被自己治愈
+
+有山靠山，无山独担
+
+心事，不需要与任何人讲
+
+任何让你依赖的人与物都会让你软弱
+
+别担心，我们不可能什么都有
+
+也别灰心，我们不可能什么都没有
+
+[![image](image/2024121601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ecv87KK73n1Gu1yScrU0sScBRLNadoU22KNHysedFbPsGQ?e=1XKLWs)
+
+----
 
 
 <!-- --
