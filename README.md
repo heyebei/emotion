@@ -437,7 +437,25 @@
 
 ----
 
+--2024年12月29日
 
+《少有人走的路》中有一段话:“真正意义上的爱，既是爱自己也是爱他人，爱可以使自我和他人感觉到进步，不爱自己的人绝不可能去爱别人。”生活赋予我们太多的感受，即使会深陷困境，也不要停止前行，勇敢在泥泞中跋涉，在困境中穿行。一定要学会骄傲的活着！
+
+我不理解她是否是这个意思，但这无法重活的一生，好好爱自己一定是绝处时逢生最好的武器。
+
+生命来来往往，没有来日方长，不要郁郁寡欢，用心活着，让自己快乐才是终身浪漫的开始！
+
+[![image](image/2024122901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESmrlrfPXxlPvSn91vQB_GEBi1hpXNlHu07ifDYgRYe6TA?e=RF0x1Z)
+
+----
+
+--2024年12月29日
+
+爱与别，是一生无解的鹤唳华亭，不知可复得乎？亦盼他日重逢！
+
+[![image](image/2024122902.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcmzlQfnFWVIthnOXeZDHIEBBoEa2dPqZgSM3hj4N-Lb7g?e=XHZWXC)
+
+----
 <!-- --
 
 [![image]()]()
