@@ -43,7 +43,7 @@
 你我  
 你
 
-[![image](image/2024041301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYPP6JLMuyVOvI8V9lp1ZPQBt9vJHCfgh7JaSZGjlfxdyQ?e=hYGmak)
+![image](image/2024041301.jpg)
 
 ---
 **2024年04月13日**   
@@ -52,7 +52,7 @@
 莫负春光，莫负良辰  
 愿余生快意，若不能，便万事如意  
 
-[![image](image/2024041302.png)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVrXcPXV6-pFg8S-5zApE_QBbHBj3vIn8lVyrtW5bnqJbA?e=kwC2oh)
+![image](image/2024041302.png)
 
 ---
 
@@ -64,7 +64,7 @@
 下次  
 次次
 
-[![image](image/2024041401.png)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EdW2alocKKNElwMRRU5l2qwBc8B2464BO2-W6F0rDl5ayg?e=dfdsLC)
+![image](image/2024041401.png)
 
 ---
 
@@ -73,7 +73,7 @@
 少年总是东顾西盼，步履匆忙，从来不去想自己真正想要的是什么  
 可待近年消逝，再回首望，才发现那些想要的东西早已经擦肩于咫尺  
 
-[![image](image/2024041402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZVDq3Sd_bpIuDGyTh2oL10BhXe29_o7XcxJhON8SoEUbQ?e=EI2gcA)
+![image](image/2024041402.jpg)
 
 ---
 
@@ -82,7 +82,7 @@
 要一百个春天身死，蝴蝶才会忘却相思  
 愿枯木重生便是永生，愿你我相逢，便会永恒  
 
-[![image](image/2024041403.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYK4dpXP2xFJkSpkfwHtkCoBnG6GyI0oqRbLYg4TwgxAig?e=uqHts1)
+![image](image/2024041403.jpg)
 
 ---
 
@@ -90,7 +90,7 @@
 
 人生不可能每一步都是正确的，选错了就选错了呗，不要一遍一遍的后悔，也不要总是责怪以前自己，因为当时你也在雾里，也很迷茫，所以不必回头看，蔷薇谢了明年还会再开，总会有人陪你看不同的风景，开心点！向前看，别回头。  
 
-[![image](image/2024041502.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERImSOxxwdtJvxKWr-TWPR0BbwZMPnKLbkq7RWPhosZwog?e=6gLmGh)
+![image](image/2024041502.jpg)
 <!-- [别遗憾 往前走 别回头](video/2024042702.mp4)    -->
 [别遗憾 往前走 别回头](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/Eey0eQiPIFJKl6_1PH9aKIIBD-tVwv9zdROc3g3HJ53mkA?e=dgdgse)
 
@@ -103,7 +103,7 @@
 不是你好  
 是我好  
 
-[![image](image/2024041503.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EX9BN9QZzg5FiEYkebCdEvYBwN_dFW1D-IT-hpOA_1xl7w?e=fR5kYH)
+![image](image/2024041503.jpg)
 
 ---
 
@@ -111,7 +111,7 @@
 
 我曾以为，我会在某一天遇到一个特别的人，然后，我就会放下所有的事情，去爱他。  
 
-[![image](image/2024041504.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUoZghg5bA9IirwS2nBAWZoBHF_Eh40-GsCshH4AXYGurA?e=ws2rSj)
+![image](image/2024041504.jpg)
 
 ---
 
@@ -123,7 +123,7 @@
 希望你永远是为自己而活  
 而并非取悦他人   
 
-[![image](image/2024041505.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESR2GEQ55sZPmaeHEPUOfwsBl4d5nyjqE-uI4L0aCR-Sfg?e=Rnfq8L)  
+![image](image/2024041505.jpg)
 
 ---
 
@@ -133,7 +133,7 @@
 变得自信满满的去追求有意义的人和事，并为之燃烧自己的热情，这时候才发现人生刚刚开始  
 把时间分给睡眠，分给书籍，分给运动，分给花鸟树木山川湖海，分给你对这个世界的热爱，而不是浪费在无聊的人和事上  
 
-[![image](image/2024041506.png)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ec4HbpnfAP5BvjbqNbUUswMB2IgSAEKk4DXXn983YL3-Fw?e=7m2SYj)
+![image](image/2024041506.png)
 
 ---
 
@@ -142,7 +142,7 @@
 <!-- 可惜，现实中是很多人总把自己当成例外，以为总会感动一个人，以为随口而出的话就是诺言。打败这一切的是细节，是感受，是态度。我们总要大方但承认自己太普通，不会成为例外。  -->  
 **时间不会永远停留在过去，你也不能只活在那一刻。**     
 
-[![image](image/2024041701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQ24ZcwISMxFi35KFxzCxfYBfHn8sv2FiJZEdstpLRJ3Aw?e=Kt3Atg) 
+![image](image/2024041701.jpg)
 
 ---
 
@@ -155,7 +155,7 @@
 你说，时间总是不对，是哪里不对？人还是事？你说不用追求事物，应追求于本心，本就没有坚定的被选择，又何来对错。  
 <!-- 变化这个东西太奇怪了，你形容不出来，但你就是知道一切已经不一样了。很多人在情绪不稳定时，会通过表达爱意来替代表达沮丧。如果你的朋友突然向你表达了爱意和思念，多半是她被情绪击溃了，所以才向你靠拢，此刻她正在坠落，而你可能是她唯一信赖的人。   -->
 
-[![image](image/2024042001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EchepK7xLRBIiaXIJ2oSc2sBzhAGImdQ4mTbI9jXzfZxLQ?e=w3mKnQ)
+![image](image/2024042001.jpg)
 
 ----
 
@@ -163,7 +163,7 @@
 
 在我这一生里，有好多奢望。想被爱，想开朗，想成为千变万化的云，只是风截停了我的去路，最终我什么也不是，什么也没有。如此回首，这人间风雨只剩下猝不及防，后来我发现，越是简单的东西越难得。  
 
-[![image](image/2024042401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ET6tYrqXX55Cs9K3F4nu7ZcBj9a8MfSUAlkUspgWUnt30w?e=UMwHTp) 
+![image](image/2024042401.jpg)
 
 ---
 
@@ -172,7 +172,7 @@
 他教会了我不爱了就是不爱了，没有为什么，当你卑微的去挽留的时候，他不会有半点可怜你，那只是自己作践自己，说过的话可以不算，爱过的人可以再换，爱别人的前提是先学会好好爱自己。爱太满，最后伤得深的只有自己。爱情死了，但你得活！人这一生本就是不断的遇见，不断的错过，时间总会让人放下过往，无论他在你心里下过多大的雪，都要收拾收拾，然后奔像春天。      
 一段感情中最心酸的事便是：对方已经决定跟你分手了，只是还没想好充分的理由，而你却还在计划着两个人的下一步。然而更心酸的是，在你发现这个事实之前，你还在懊恼，还以为是自己没有更好的珍惜。  
 
-[![image](image/2024042402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETHMjNs-zyNOjgkjtF9zoVEBZ15nob8kYJP5JUR_ZQGcNQ?e=IU5UJT)
+![image](image/2024042402.jpg)
 
 ---
 
@@ -181,7 +181,7 @@
 你是否能接受我们渐行渐远。我的青春是一场盛大的别离，好友便是先走散的人，无论曾经许下什么样的誓言，只要时间的风吹过，我们便从陌生走向了陌生……  
 有些想念，像十除以三  
 
-[![image](image/2024042403.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETUekvmlFThNhloGbHxnT18BjxVjmvzRGN1D64hSGnlbtg?e=Jl6btK)
+![image](image/2024042403.jpg)
 
 ---
 
@@ -192,7 +192,7 @@
 所以你只管成长你自己，你只需要去超越他，那个时候，你就会发现自己的内心强大了，他在与不在，其实都一样，你要知道，自信才有资格谈浪漫，收起你那多余的自卑，把皮肤养好，把身材锻炼起来，多读书，腹有诗书气自华。你自然明白人间难得，不是所有的鱼都生活在同一片海里，我们来自不同的地方，不同的圈子就有不同的生活，生活是自己的，你想怎么过就怎么过。永远不需要向任何人交代，不需要把自己框在固定的架子里，在任何的关系里，过度的解释都会让人感到心力憔悴，所以才会有那么多的人，大家都渴望遇到志同道合、心有灵犀的朋友和爱人，那些会懂你的人，是因为他们在意你，很喜欢杨绛女士的这句 *“最高贵的惩罚是沉默，最矜持的报复是无视”* 少在烂事上纠缠，少为不值得的人生气，让自己活得更贵一点，学会放下，才能更好的前行，这个世界看似纷繁复杂，本质上还是你一个人的世界，这世间有太多的猝不及防，有些东西根本不配占有你的情绪，人生就是一场体验，请你尽兴吧，如果别人说你两句。你就受不了被干扰的吃不好睡不好，你得有多脆弱，你要明白，能干扰你的往往是自己的太在意，能伤害你的往往是自己的想不开，你若平和，无人能扰，所以不要过于敏感，内心要不断的强大，别被别人左右你的情绪，有心者，有所累，无心者，无所谓。   
 做一个内心强大的人，走自己的路，让别人说去吧。   
 
-[![image](image/2024042501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfxFgwvYFBxAq5KgUus8sN0BS5_Kej5bM8jAzKsJl_dZDg?e=5Z9BEe)  
+![image](image/2024042501.jpg)
 
 
 ---
@@ -202,7 +202,7 @@
 可能很多年之后，你还是会回想起那一个瞬间，还是会想起那个人   
 时间的长河奔流不息，往后你的人生中，每一个人都像他，但是你知道每一个人都不是他   
 
-[![image](image/2024042601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Eb4nar_GPatJolMstBQE7fQBDAMqIlPQbZ-9GCFZ6RNK6Q?e=No22W2)  
+![image](image/2024042601.jpg)
 
 ----
 
@@ -210,7 +210,7 @@
 
 你习惯说 “我没事，不用管我。”然后呢，每次都会收获一句 “那你自己小心点。”突然有个人对你说 “我不管你可怎么行。”这时候，你的心被砸的稀软，所以呢，别着急，总会有人拿着鲜花，满心欢喜的朝你走来。   
 
-[![image](image/2024042602.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ec8YtrT0yalFirEasYqq1gkBnnoK_MD2wEOk3jsKU49uJw?e=lRc5R3) 
+![image](image/2024042602.jpg)
 
 [你要是足够了解我 肯定会厌弃我的](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/Ebg08QzOM7tIjutdRnmfDpgBMmaWIaKs05_wCBVLU4C7rA?e=E6lJsp)
 <!-- <video width="" height="" controls> 
@@ -223,7 +223,7 @@
 
 亲爱的，你知道吗，我本可以义无反顾奔向我爱的人，可你对我的态度，我又怎么敢义无反顾的奔向你呢。不是不爱，而是你给我的感觉就是如果我义无反顾奔向你的话，我会输的一败涂地   
 
-[![iamge](image/2024042701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcDKfNtKbMJKjhhxxI8gdskBzwZzH8hP40O3a37wn2CcZg?e=i8P7wh)    
+![iamge](image/2024042701.jpg)    
 
 [Forever and always](https://heyebei-my.sharepoint.com/:u:/g/personal/heyebei_heyebei_onmicrosoft_com/EWc5tm57o0hCtSknkG_E5AQBE2V02CP6cmEasqpDieXZVg?e=khl9tm)
 
@@ -237,7 +237,7 @@
 
 喜欢没什么了不起，被坚定选择才值得。慢慢来是一种诚意，我也喜欢慢一点的关系。   
 
-[![image](image/2024042702.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Edil3J4mcWBPq8SnRXqsINsBUNClYDh2u7Mg9lXP-cSkiw?e=dCgvvu)
+![image](image/2024042702.jpg)
 
 ----
 
@@ -245,7 +245,7 @@
 
 同频是一种暂时性的状态，是会变化的，但爱不是状态，爱是一种调频的能力。    
 
-[![image](image/2024042703.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaCHBKXdwzVLpVYOsX-rjjABq68WyZnaIjqyZGnecUVfKw?e=P8qf9K)
+![image](image/2024042703.jpg)
 
 ----
 **2024年04月28日**     
@@ -253,7 +253,7 @@
 我一直强行把一些东西送给你。我的时间，我的爱，我的矛盾，我的狰狞和假装乐观。我从没问过你想不想要，我只知道这些我从不给别人。     
 我以为真正的真诚是，我可以在你面前不用伪装，可是后来发现，必杀技从来不是真诚，而是想象力，当现实的我不能满足你的预期，那么真诚只会是你的负担。   
 
-[![image](image/2024042801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERS83wvnV51Pv7-W3Dbg7tkBT_9D-ngRnuuVXJOhn16QUQ?e=8dzTr0)   
+![image](image/2024042801.jpg)
 
 ----
 
@@ -263,7 +263,7 @@
 大大方方结束一段失败的关系，是我们成长路上的必修课，不要再去纠结那些已经发生的事和那些烂掉的关系，最糟糕的并不是你失去了一个很爱的人，而是你为了一个不值得的人失去了自己    
 你依然很可爱的，不要忘了那个值得被好好对待的自己    
 
-[![image](image/2024043001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EStWzd5f84dKs4DJICyonFIBjlLLEkvbhVNmhX1ymHXRkA?e=CqA1Jm)
+![image](image/2024043001.jpg)
 
 ----
 
@@ -276,7 +276,7 @@
 喜欢就够了，还能联系上就够了。彼此心里待过就够了，在不在一起真的不重要了。    
 祝不了你幸福，那就祝你平安吧。    
 
-[![image](image/2024043002.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfZTEmaGCjdGiNFQqwPQ_XUBDfVxQPQCyz6NceOMrBOQsg?e=fa9xhS)
+![image](image/2024043002.jpg)
 
 ----
 **2024年04月30日**  
@@ -284,7 +284,7 @@
 感情的世界里，喜欢没用，相互喜欢才有用。   
 主动不一定喜欢，不主动，一定不喜欢。   
 
-[![image](image/2024043003.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ea5i5upYBmhFnZLLLMa9A3AB8t8XU6sQa0ogi8X7gnFdyw?e=IeIFfP)
+![image](image/2024043003.jpg)
 
 ----
 
@@ -308,7 +308,7 @@
 情深不及久伴   
 厚爱无需多言   
 
-[![image](image/2024050101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETMYxGspM8tAnk4EO4rn6sEBQiucUPH1He1pIl0l0lNXkw?e=1hRK5m)
+![image](image/2024050101.jpg)
 
 [番外-20240501](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/ERS5qg2QIC5KqrxrbkSLCkUBLrp5LbM3_Mwy2MBG9Tnf-Q?e=ryJC6Y)
 ----
@@ -318,7 +318,7 @@
 躺在床上发现了一个无解的问题，当你和一个人建立情侣关系，就会对对方产生期待，但对方却不一定能满足你所有期待，那么你就会因为失望产生负面情绪。三番五次，消解的办法就是降低期待。可是如果没了期待，某种程度上就失去了伴侣的意义。   
 这是一个死循环。   
 
-[![image](image/2024050102.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZryWBMzldxOqSc6uCL89fkB6JBSSFksBKIPmTftsMWThQ?e=GTQ3vZ)
+![image](image/2024050102.jpg)
 
 ----
 
@@ -335,7 +335,7 @@
 等到遍体鳞伤才明白   
 偏爱只是例外 遗憾才是常态    
 
-[![image](image/2024050301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Edp_zKv72G9KiVqbcuiu3tUB27UV9a4A-ggF9hRsDDa_4A?e=9am5pp)
+![image](image/2024050301.jpg)
 
 ----
 
@@ -356,7 +356,7 @@
 我不否认理想国的存在   
 同时我也不敢轻易承认爱的存在   
 
-[![image](image/2024050302.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESAJO2c37SxKkq_azPCDs-kBVXk_H7CT0_20DL6dAiyqmw?e=d3uDaA)
+![image](image/2024050302.jpg)
 
 ----
 
@@ -364,7 +364,7 @@
 
 人这一生，不是所有伤痛都需要呐喊，不是所有遗憾都会填满，你会发现痛苦的不是失去，而是回忆美好。    
 
-[![image](image/2024050401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Eety7vBu32BPsGtCNKq6yvABQERSqgHPj1ww9GsU5gj1XQ?e=arCibV)
+![image](image/2024050401.jpg)
 
 ----
 
@@ -372,7 +372,7 @@
 
 图他的钱吗，好像不是，他并没有为你花多少钱。图他的人吗，好像也没有给你多少陪伴。图他的好吗，似乎他的好也并不只给你一个人。图他的爱吗，看不见也摸不着。既然什么都不图，那为什么不肯放手，因为你对自己的付出耿耿于怀。    
 
-[![image](image/2024050402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EU8-1qG-r7pEiXhSP1FfQ2kBv_xc-BtwNSkDgkHhrc67Fg?e=IAjHHR)
+![image](image/2024050402.jpg)
 
 ----
 
@@ -381,7 +381,7 @@
 爱上没什么了不起   
 爱下去才了不起！     
 
-[![image](image/2024050403.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQrADmLKt51PqwhS_m4ymOcBOFKjNb8ZbstkftYt4OMkPw?e=gLBjsj)
+![image](image/2024050403.jpg)
 
 ----
 
@@ -392,7 +392,7 @@
 感情其实是有轮回的，对方用怎么样的方式去对你，就一定会有个人用同样的方式来对他   
 而我们需要反省的应该是自己的眼光和见识，而不是怀疑自己的真诚和善良   
 
-[![image](image/2024050404.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EWUtVMjkthRLmVRfzrXVpVsBFuMP8GaZrz9l9ubw-OeUNg?e=pWF6Iy)
+![image](image/2024050404.jpg)
 
 ---
 **2024年05月05日**   
@@ -403,7 +403,7 @@
 我也得变得优秀，而不是一直在我们的感情里内耗不是嘛？   
 祝你前程似锦，若不能，便祝你万事如意    
 
-[![image](image/2024050501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETfFZ-1A0DNNtuni0rPmz5kBXnhwsnZodxF3KtlsKcRv-g?e=Uld8rv)
+![image](image/2024050501.jpg)
 
 ----
 
@@ -413,7 +413,7 @@
 可是生活不是电影    
 遗憾也只会是遗憾    
 
-[![image](image/2024051001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ES9TqKsEN8BLpi3VBpOPB6UBE2bFfiXholKIQug3I1bgRw?e=TYO8h6)
+![image](image/2024051001.jpg)
 
 ----
 
@@ -427,14 +427,14 @@
 </br>
 </span>
 
-[![image](image/2024051002.png)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Efa7fk1pAcFCu-8kSFlM8JwBh90iFRYAKzE5Nowlr9sAqQ?e=BaXKji)
+![image](image/2024051002.png)
 
 ----
 **2024年05月11日**   
 
 学会放弃其实是一件挺厉害的事。放弃一段耗人的关系，放弃某个不甘心的执念，放弃努力了也得不到的东西，放弃不切实际的幻想，放弃紧握着不撒手的过去。放弃这个词听上去挺丧的，但你想一想这又何尝不是新的开始呢，它意味着你将收获新的东西。    
 
-[![image](image/2024051101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EXtKZiT-7t1Lh2T5CtEfgBsB9UU5NhIqvD_ZJO36SK7BCw?e=f7IcXN)
+![image](image/2024051101.jpg)
 
 ----
 
@@ -447,7 +447,7 @@
 可能是遗憾吧，可能是执念吧   
 到底是谁在给回忆造记忆   
 
-[![image](image/2024051201.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EXZN_wyyaHtJk0JB4YuNkDUB_rmgrvx8vGV5sNpiFswK1Q?e=nZ4aMF)
+![image](image/2024051201.jpg)
 
 ----
 
@@ -459,7 +459,7 @@
 因为我也问你要过   
 只是你觉得我不配拥有     
 
-[![image](image/word%20img/2024051301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQFsN9suWtpHkmpKBDrWNEUB45q068gZ-j8OQiUjuYNshg?e=UkKjq2)
+![image](image/word%20img/2024051301.jpg)
 
 ----
 
@@ -469,7 +469,7 @@
 而有的人却说你喜欢无理取闹，喜欢发脾气，一直在指责你，看吧这就是区别   
 说我爱你很容易，买一次两次东西也很容易，接吻很容易，拥抱很容易，但在面对你一次又一次的负面情绪的时候，不是不耐烦，不是指责，是很难的，就像你皱眉的时候，我只会觉得心疼，总觉得这个世界给你的不够     
 
-[![image](image/2024051302.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EWTDJ7403IVDh3YeU4l8tXEBezMHB42UrAL_caX2I6t6_g?e=HePpRe)
+![image](image/2024051302.jpg)
 
 ----
 
@@ -481,7 +481,7 @@
 少年不再是当年年少   
 我亦不是此间少年   
  
-[![image](image/2024051303.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EU6fxWL-ekpJqyGmv6qUYu4B2JkSijchyhZxU3TVN--C1A?e=NTUhwt)
+![image](image/2024051303.jpg)
 
 ----
 
@@ -489,7 +489,7 @@
 
 晚风微凉，我采了一朵路边的花。许多年以后，人们会说陈年旧事可以被埋葬了，但我依然想说:愿我们都能在年轻的时候如愿！！ 
 
-[![image](image/2024051401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYs51kBcrDFAmjx83VPUxUEBUGrinx32ORxcQVMQxzuqhA?e=lxgnB4)     
+![image](image/2024051401.jpg)
 
 ----
 
@@ -499,7 +499,7 @@
 长大后才明白，在时间的长河里，不知道多少人一次次的返回某个节点，想寻找某个失去的东西，但是只能站在船边徘徊     
 失去的东西永远不会再回来，因为你已经不是曾经的你了，故地重游，本就是刻舟求剑     
 
-[![image](image/2024051402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EbFmjAWw4S1Ojo0FLKJbU2cBA7rBmtoACbDC0mFMwlsttQ?e=9dHRUT)
+![image](image/2024051402.jpg)
 
 ----
 
@@ -508,7 +508,7 @@
 
 是否在梦里，我们都会更开心     
 
-[![image](image/2024051501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ebt_CF1SZkRHqg9VyCn01FoBJQ6Erlwnh_VZg-xI2M0DGQ?e=imiPwD)
+![image](image/2024051501.jpg)
 
 ----
 
@@ -516,7 +516,7 @@
 
 回忆闪了一帧，你我又见了一面    
 
-[![image](image/2024051502.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EW8TJiyuucpIgzVHqTIp1KIBTqIdjR0kFTdNFi11jKbIeA?e=7gZucs)
+![image](image/2024051502.jpg)
 
 ----
 
@@ -525,7 +525,7 @@
 
 我的躯体化症状并没有得到更好的处理，而是适应了一切，能够更好的隐藏了，偶尔的治愈也越来越少。我摔了一跤，太痛了，但我早已不会表达了。我坐了起来，就这样坐着，一个又一个的春夏秋冬，便再也站不起来了。    
 
-[![image](image/2024051601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZUruB4RLclGtumo_9ZM4BgB0H6G_-1BU1AXUMhTVtshxQ?e=yW60FM)
+![image](image/2024051601.jpg)
 
 ----
 
@@ -533,7 +533,7 @@
 
 小时候看电视剧 总觉得男女主很多误会 都没必要存在 他们闹矛盾的时候 心里总在想 你们快讲明白啊 说个话都那么墨迹 为什么不早点表达自己的需求和感受 拖好久才说出那句真心话 后来我才明白 有些话真的很难说出口 身临其境时 我甚至比他们还沉默    
 
-[![image](image/2024051602.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZh_NSxISNdBnVeQ18y6Y3ABOgXSwUgfwJ0-7AL5r9-4ug?e=PziHDd)
+![image](image/2024051602.jpg)
 
 ----
 
@@ -541,7 +541,7 @@
 
 我从不后悔自己付出真心，也从不计较是否得到回应。但我开始害怕，在时间里失去的，会让以后的自己嘲笑现在的自己太蠢。我从不质疑真心，但真心瞬息万变，爱这个东西，山高路远，全凭良心，而良心，爱的时候有，不爱的时候连渣都不剩。    
 
-[![image](image/2024051901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESbs6UQXno9LgAr-PMd0_pIBx543NAoYzX9CyuQKceHWkw?e=ehcsUe)
+![image](image/2024051901.jpg)
 
 ----
 
@@ -550,7 +550,7 @@
 生命本就是一条悲伤的河流，因为害怕溺亡，所以才想找人同游。    
 可惜前往彼岸的路太长了，水中清梦，总是让人看清万物虚构。    
 
-[![image](image/2024052001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfUdWHaBlRVMk2M2ibFXfBEBgAjz-cx0oC8XSdPTEVcfMw?e=JIG1wh)
+![image](image/2024052001.jpg)
 
 ----
 
@@ -558,7 +558,7 @@
 
 我不擅长维护一段关系，经过长久的相处，我发现真正好的关系不需要特意维护。特别喜欢一段话人家:撇下你的那一刻，一定是觉得没有你的生活会更好或者有没有你，生活都没有任何变化。所以任何一段关系都需要双方的努力才行，友情爱情都一样。一个重视你的人永远不会把自己置身于可能失去你的境地，我始终认为，人对重要的事物是不会随意对待的。在大多时候，你所感受到的冷漠，忽视，不在意都不是错觉，你要相信自己的直觉。      
 
-[![image](image/2024052201.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaQgKrmQU0hGtCNxAct7v4UB6V3UPB5J5zU8yf4tFEPc4A?e=2YH1fW)
+![image](image/2024052201.jpg)
 
 ----
 
@@ -566,7 +566,7 @@
 
 人生的路很长，没有必要事事清楚，件件明白。所谓遗憾、错过也是成长，那些爱而不得、求而不得的，都会是你前进路上的光亮。    
 
-[![image](image/2024052301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETbG7uWnZuNAjSQmBayvPrQBhfrqYAqGpjv3EIamFGpzyw?e=zFYDQx)
+![image](image/2024052301.jpg)
 
 ----
 
@@ -574,7 +574,7 @@
 
 人总要和自己和解，在我们存在于仅此一次的当下，行己所爱，爱己所行。     
 
-[![image](image/2024052601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ec8BRQbRZVRGhC2DXklqGHYBx82QHt18SCCZSezrJJk-xw?e=hBHgoN)
+![image](image/2024052601.jpg)
 
 ----
 
@@ -582,7 +582,7 @@
 
 花开便有花落，爱也是。爱与被爱，都有开始和结束，勇敢的人愿意承担风险。爱与被爱都别低头，这是最大的勇敢！    
 
-[![image](image/2024052701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeSPgVIcxFZFt4EnnvnQhX0BqRxtosNO6yhq3h7IJJcczQ?e=c3widv)
+![image](image/2024052701.jpg)
 
 ----
 
@@ -617,7 +617,7 @@
 真诚需要遇到同样真诚的人
 
 
-[![image](image/2024052702.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESjH4hXVDwJPtVyMAc5jaPgBlfyp1hgqeZiK1n0o4TSUKQ?e=4EWmYO)
+![image](image/2024052702.jpg)
 
 [破窗效应-20240526](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/EawzSkGaZs9Aqt1wLX1S0QsBAOxvGvzgVkldsERLhDYo_g?e=FVpUNJ)
 ----
@@ -625,7 +625,7 @@
 
 这个世界上最恶心的一句话是，事情都过去了，你怎么老揪着过去不放。有些事你过去了，但我过不去，因为被迫吞下委屈的是我，而不是你。道理谁都能讲，但并不是讲道理的人都是对的人。    
 
-[![image](image/2024052901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQnRpsHVWiROjZBE06wXL3oBvLyXuEM4XQ-LadHtbTZCzQ?e=Hpe9no)
+![image](image/2024052901.jpg)
 
 ----
 
@@ -634,7 +634,7 @@
 我偏要在这个快餐式恋爱的时代，用真心砸出真心    
 <!-- ——记与小张同学相遇     -->
 
-[![image](image/2024053001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfDchqMbJUdGlkEo2D6o7-kBdBGN81xPnafrLEE-IGr6cA?e=eVZRhp)
+![image](image/2024053001.jpg)
 
 ----
 
@@ -642,7 +642,7 @@
 
 “我将于茫茫人海中寻找我灵魂的唯一伴侣，得之我幸，不得我命。”    
 
-[![image](image/2024053101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EbP0uWTfsKBEpvYCwaaSUgcByyVDcuN1k-IABBtFu9-fSw?e=YzG7Ik)
+![image](image/2024053101.jpg)
 
 ----
 
@@ -650,7 +650,7 @@
 
 一个温暖的人，是因为有另一个温暖的怀抱    
 
-[![image](image/2024060101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Ee9Smt9P4PJJkzNmVkXy7r4BsRUqzwC8rnKjOeSBgfPE1Q?e=d7bxcM)
+![image](image/2024060101.jpg)
 
 ----
 
@@ -658,7 +658,7 @@
 
 时光匆匆，总有人后悔，他们总是说如果能够回到过去，可我从不后悔。我爱当下！那些胆小脆弱，那些惊慌恐惧，以及那些依然保留的柔软善良，我都不想重来。    
 
-[![image](image/2024060201.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EU2GD0YeSuRNv6L3gtTRWckBridxXXOx0iWHv4_AV7eqYg?e=VOHV5P)
+![image](image/2024060201.jpg)
 
 ----
 
@@ -668,7 +668,7 @@
 可若真的有一天有幸，能让我捡到那一束光，纵使终会归还给太阳，我也会紧紧抓住。    
 所以做一个勇敢的人！本自具足，莫向外求！
 
-[![image](image/2024060401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQldNd0D4bZCs_v2Cfwz5ksBU1Y_9JJlHGL-jOEPBcd8ow?e=UgAQ6G)
+![image](image/2024060401.jpg)
 
 ----
 
@@ -691,7 +691,7 @@
 就无法开始爱别人
 
 
-[![image](image/2024060402.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESwWIkqmvitPnww7Q-rBqrsBjV7m12nw5O9XJKHCmjRyiA?e=Yi0e6K)
+![image](image/2024060402.jpg)
 
 ----
 
@@ -699,7 +699,7 @@
 
 两两无言时，因为我的纠缠要你平衡那么多事，突然心疼你，我想你永远开心、永远明媚。当你开心，要我们没有交集才可以，那么我很庆幸还能在最后为你做点事。落日晚风尽头，你！永远自由！    
 
-[![image](image/2024060601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERFHbDBV7z9NpDoAR25u6YUB1010J7hSv-EbTE2oK3gOUA?e=kNXLE0)
+![image](image/2024060601.jpg)
 
 ----
 
@@ -709,7 +709,7 @@
 可是我也清醒的知道，从小到大好像从来没有什么东西真正属于我，也从来没有人坚定的选择过我。    
 所以任何一个人哪怕给我一点真心我也会想要用尽全力的把他留在我身边，我会千倍百倍的想要对他好。可是，我也忘了，我的这些好对于对方来说也许只是一种负担。    
 
-[![image](image/2024060602.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVVMxqqHSZBBgF1Go_EnPHgBuZ1_8HgOMcT0wAB8zWGg4Q?e=e1U5fR)
+![image](image/2024060602.jpg)
 
 ----
 
@@ -724,7 +724,7 @@
 山高路远全凭良心
 
 
-[![image](image/2024060701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETUX0n3KD71IqTVk0HSl1r0BdW4G1dqTtvf8oU6IrkCriw?e=D5h1dt)
+![image](image/2024060701.jpg)
 
 ----
 
@@ -733,7 +733,7 @@
 <!-- 所谓的冷淡是看穿了一切，然后静静的看着。年纪大了，开始欣赏那些生活中的虚情假意，精彩之处也会应和两句，甚至都能配合着人们演上一演。拆穿多没意思呀，又不是不能演！再也不相信那些为我好的人，那么喜欢一个人，如今也撤掉了所有光环。人的本质，就是一个人活着，一个人面对所有的，风雨也好、晴空万里也罢。     -->
 永远不要美化那些你没有选择的路，你没有得到的人，永远先爱自己。生命那么短暂，没有所谓的标准答案和完美人生，眼下的便是最好的！其余的，人生自有安排！
 
-[![image](image/2024060901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeW7GeitXdFLvaMVgOAFY88BQ1XMCb5n3lrUvzweBsR8zw?e=O6PMJZ)
+![image](image/2024060901.jpg)
 
 ----
 
@@ -747,7 +747,7 @@
 如果太阳不再升起
 那我会尝试点亮所有的灯
 
-[![image](image/2024061101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeeRGi7WBXlAha1ct92pLMoB83T4kqNNEDeY_boARH6N1g?e=80fUcj)
+![image](image/2024061101.jpg)
 
 ----
 
@@ -755,7 +755,7 @@
 
 十五十六岁的我们谈起爱来要细水流，要奋不顾身，要将心比心，用疯狂袒露眼中凌乱的破碎，轻狂的年纪触碰起爱来便小心翼翼，青雉又夹杂着自以为是的成熟，可我想这不怪他们，他们就像豪赌的赌徒，追逐又退却，赌的是你一定爱我不完美的心，就像我说想你时眼泪止不住滴落，你也会说下次想我直接打电话时一样简单
 
-[![image](image/2024061102.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcMe-_X5A_1In8OFBxEJ3TMB5OQXPCwue9knmwFVXiijIA?e=cYORjz)
+![image](image/2024061102.jpg)
 
 ----
 
@@ -782,7 +782,7 @@
 我爱霓虹闪烁 也大爱高山流水
 更爱我自己**
 
-[![image](image/2024061103.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfnmlPEOpUVHvW9tVOX0PykB93XfH43iCmt3YcdQngSTsQ?e=WW3LE5)
+![image](image/2024061103.jpg)
 
 ----
 
@@ -812,7 +812,7 @@
 所以总是把自己身边的人往外推
 谁又会爱上真正又破碎的我呢
 
-[![image](image/2024061104.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EbPNKpQLFmtPh9pmx8duK5MBDFbIpNMEX7MsD-kHZ3iUJw?e=AaxYn0)
+![image](image/2024061104.jpg)
 
 ----
 
@@ -820,7 +820,7 @@
 
 在这个满地都是套路敷衍的世界里，光是诚意这两个字就显得尤为珍贵。现在的人都在试探，都在掩饰，都在权衡，都在欲擒故纵，都醉翁之意不在酒。如果你身边有一个炙热的、坦荡的、真诚的、天真的喜欢你的人，我想那就是带着最大的诚意来的。    
 
-[![image](image/2024061301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcHGx5NNfgZOpats52crfFMBqljFqcvMVAJ6F8caWn_CfQ?e=HgqGJ3)
+![image](image/2024061301.jpg)
 
 ----
 
@@ -831,7 +831,7 @@
 所以，停止自我安慰，才是学会爱人的第一步     -->
 我只想和你有个好结局  仅此而已
 
-[![image](image/2024061302.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EYFtD0Xo8DpHsZw5xxBcb5oBPZ_V2_ZdLnmStGms1GjEhA?e=ajL9Bl)
+![image](image/2024061302.jpg)
 
 ----
 
@@ -839,7 +839,7 @@
 
 自由，不是让谁喜欢你，而是喜不喜欢都随你。就做自己吧，总有人因为是你而爱你，在这个细水长流的日子里，不讲永远，只看眼前。    
 
-[![image](image/2024062001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaUIpN1l779KgdU5px9zqdMBCWMgkR0aMPIr9aCd2umNlg?e=AVBPGa)
+![image](image/2024062001.jpg)
 
 ----
 
@@ -849,7 +849,7 @@
 
 <!-- <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1705373579&bvid=BV14T421v72p&cid=1569948724&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe> -->
 
-[![image](image/2024062101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EU2g29AZxGRLu_drSTvkEFkBUC_weCkdHcY1ujUVVDjtWw?e=Huv18V)
+![image](image/2024062101.jpg)
 
 ----
 
@@ -857,7 +857,7 @@
 
 我是一个特别拧巴的人，认准的事就会一路撞到南墙。这些年自己就像是风前的烛，雨中的灯，摇摇欲坠。我从不强求别人拯救我，只是求他们别熄灭我.    
 
-[![image](image/2024062102.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaQMitgDddFHu9E4byuqYm8BG1LDkbPKmRWNGIFQp03Ofw?e=npP4Jg)
+![image](image/2024062102.jpg)
 
 ----
 
@@ -870,7 +870,7 @@
 是你心知肚明外面的世界精彩绝伦
 但是都不如坚定的选择后成为那一个人的偏爱和例外
 
-[![image](image/2024062301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETSE-lCMgzVHjsBT36Yd34oBPOcq8XThKwPEgs1ussWANA?e=BmVR7f)
+![image](image/2024062301.jpg)
 
 ----
 
@@ -880,7 +880,7 @@
 他很大度 也很包容 但只有他知道 他只是早就对任何关系做好随时会散的准备 你在的时候 他真心待你 你若要走 他也绝不留你 不是不爱 而是他心知肚明 知道要走的留不住的 这就好像“日落西山非我意” 既如此 倒不如体面一点 把别人还给别人 自己余生的山高水长留给自己    
 ————让花成花,让树成树,这是他的尊严    
 
-[![immage](image/2024062501.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUi3IiZbGaZGpGzvvlEKuyIBqWA20TO_WakUumZ3pueIGA?e=3xcbEe)
+![immage](image/2024062501.jpg)
 
 ----
 
@@ -888,7 +888,7 @@
 
 突然想起塞林格的一句话  有些人觉得爱就是性 是婚姻 是清晨六点的吻和一堆孩子 或许爱就是这样 莱斯特小姐 但你知道我怎么想吗 我觉得爱是想要触碰却又收回的手    
 
-[![iamge](image/2024062601.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUoW3_fAZ85Ii6MZJNaGdG4BpqFcRMDnHdueTg7xO1ldYg?e=sfF0s1)
+![iamge](image/2024062601.jpg)
 
 ----
 
@@ -896,7 +896,7 @@
 
 听过三观最正的一句话：喜欢就说喜欢，生气了就告诉对方为什么生气，做错了就诚恳的道歉，不要猜来猜去，不要阴阳怪气，更不要口是心非，在一起的时间太宝贵了，不能在奇奇怪怪的问题上消磨彼此的爱意，我们都要坦诚的去表达爱    
 
-[![image](image/2024062801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVgtJuER0TFDqtzEwkfABVkBJdYkf_jWZz5dAc2CkjjTkA?e=bdHKe8)
+![image](image/2024062801.jpg)
 
 ----
 
@@ -904,7 +904,7 @@
 
 事情压不死人，但情绪会，我没有多生气，只是很失望，就那么一瞬间，心一下就空了，没有资格质问什么，态度足说明一切，情绪卡在喉咙，说不出来，也咽不下去，打了很多字，又默默的删了，有些东西说不清，那些无处宣泄的委屈，终究还是藏在了心里
 
-[![image](image/2024063001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/Eb_MWmfBvVlCjc1I_OsrycwB5hkvr9paO6yLJ4m6CAuOOQ?e=CGEm5l)
+![image](image/2024063001.jpg)
 
 ----
 
@@ -912,7 +912,7 @@
 
 人有时候会突然不快乐了，突然被记忆里的某个细节揪住，突然陷入深深的沉默不想说话    
 
-[![image](image/2024063002.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EdiAgkg48plGsIL4hqOffGABCFpce2Zu3G7sgGBntZO96Q?e=5bDmLA)
+![image](image/2024063002.jpg)
 
 ----
 
@@ -920,7 +920,7 @@
 
 香奈儿今年的广告语："等你再见到我的时候 我会变得成熟稳重 极致温柔 你想要的样子我什么都有了 唯独只是眼中再无你"    
 
-[![image](image/2024070101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EQdHPCILnYlBnJ1ZVmHcN9oBvOG4T796rq6AMLuPNcPScA?e=RdWlDI)
+![image](image/2024070101.jpg)
 
 ----
 
@@ -928,7 +928,7 @@
 
 好像什么也不图的时候，也没有被对得起，反而是想有所求时，被抛的远远的。
 
-[![image](image/2024070701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESY-MYYZoVRMnp7T9_ONDDoB8omknhBV6LmP8_yyXwyqGg?e=Ztobga)
+![image](image/2024070701.jpg)
 
 ----
 
@@ -936,7 +936,7 @@
 
 为什么爱需要教  我爱别人不也没有人教过我    
 
-[![image](image/2024070801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EVZ1rIQMR-5HmWTaGCm-aeQBMXgswIoHH4nKqKXhoatTtg?e=K3yhi0)
+![image](image/2024070801.jpg)
 
 ----
 
@@ -965,7 +965,7 @@
 我要走更远的路
 去看更大的世界过自己想要的生活
 
-[![image](image/2024070802.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZqFHMbCk05MuDhko_MmpbIBYqezomOJNhiPMp7AD3Mzyg?e=Y4fZNV)
+![image](image/2024070802.jpg)
 
 ----
 
@@ -973,7 +973,7 @@
 
 "任何关系，褪去最初的激情和热情，最后看的是良心，拼的是人品，留的是信任。你真我更真，你假我转身，我用真心对待的每一个人，但不执着于任何人．"   
 
-[![image](image/2024070901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EStzAZTZWzlHrCEPE_Yi8uIBUmY-8SSbI4PRnk9y29ULjg?e=heu4S4)
+![image](image/2024070901.jpg)
 
 [分享欲消失就是这段关系的结束](https://heyebei-my.sharepoint.com/:v:/g/personal/heyebei_heyebei_onmicrosoft_com/EfE0Xy5hMeRJoZhJbkPM1WIBU1imkFJ63JKMEQ49VI_ozw?e=XBugoZ)
 
@@ -984,7 +984,7 @@
 
 我曾在人群熙攘中将爱意说得震耳欲聋，后来在万众瞩目里变得悄然无声。有些人渐行渐远是对方的选择，却不是我的选择，我当然会舍不得。我也曾试图和某人一次次产生羁绊，可总是走不近，我不问，你不回，距离很近，心却越来越远。距离产生的并不是美，是疏远，是沉默，是成年人最后的体面。失去一段关系固然可怕，但在一段关系里失去了自己才最可悲！   
 
-[![image](image/2024070902.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfPJVHy6lJpLrEzYEphduUABPDPgfXXokiyUMWHBtnhAQg?e=HRxL4Z)
+![image](image/2024070902.jpg)
 
 ----
 
@@ -992,7 +992,7 @@
 
 其实可以变卦的，这个世界上所有的事情都可以出尔反尔，不必记得，不必因为自己说过的话许过的承诺而画地为牢。该记得的人不会忘记，要忘记的人不会记住！
 
-[![image](image/2024070903.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESEsVzyCz6FOiC95ZkEWSkEB4T_iqWDkDQvBhkTRUaC5VQ?e=BfjM56)
+![image](image/2024070903.jpg)
 
 ----
 
@@ -1005,7 +1005,7 @@
 你猜，我为什么执着于你    
 因为在某一刻我真实感受到了幸福
 
-[![image](image/2024071001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ERcrxhnIOOpLvEv92qtmVKQBUjB9O6jX4e3DTH3uo780VQ?e=B4PA7B)
+![image](image/2024071001.jpg)
 
 ----
 
@@ -1015,7 +1015,7 @@
 
 这一生啊，如果真的像梦里那样，再难与你重逢，哽咽又怎会这般小声！这世间的风总是吹散不愿走散的人！！
 
-[![image](image/2024071101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZIGvQQzDPRCjnh3Fq9ElhsBdFqpAN4hQSN3pB2_Ji070g?e=zubaWw)
+![image](image/2024071101.jpg)
 
 ----
 
@@ -1023,7 +1023,7 @@
 
 结果？什么是结果？结婚就是结果吗？白头偕老叫结果吗？结了婚也会离婚，白头偕老，也终有一个人要先走，世俗从没有界定过，到底什么才叫结果，有时候即使你尽力了，却依然没有一个结果，这世上最伟大的事以及努力都和结果无关，而是他沿途带你见识过什么样的风景，我曾深爱过，也迷失过。后来我转过身，渐行渐远，我找到了我自己需要的结果。    
 
-[![image](image/2024072201.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESg0XPcMZs1Kp4bLgmGjaWkBLmi3TPBTLKYasEgibq2uwA?e=bVHuSL)    
+![image](image/2024072201.jpg)    
 
 ----
 
@@ -1031,7 +1031,7 @@
 
 我最后的敬意，献给那些知道我不完美，却仍然爱我的人！    
 
-[![image](image/2024072301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESs81FDTv6VMvC6JxI2f4L4BsK2LPZ634U_nKOCAw7G57g?e=hMxymP)
+![image](image/2024072301.jpg)
 
 ----
 
@@ -1039,7 +1039,7 @@
 
 我置身黑暗，也曾寻求属于自己的光，也曾赶往更好的路，只是我用执念浇死了所有的幼稚和任性，那片荒芜慢慢长出了冷静、冷漠、冷眼旁观。    
 
-[![image](image/2024072401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ETzMxbszLvJLvicNa6HgumMBRbH66L8gCFk987vgIVt8KQ?e=dtpH9b)
+![image](image/2024072401.jpg)
 
 ----
 
@@ -1048,7 +1048,7 @@
 人生里很多事，必须经过很长一段时间才能书写。那是暴风中被卷起的一页又一页的纸，那时无论如何伸手都是抓不住的。只能等风停了，你才能蹑手蹑脚地走过去，拾掇起上面的秘密。
 
 
-[![image](image/2024072701.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EfwFmret8eZEtX_p6IfrRYoBZ1CbNVUoc8VAp8RmQfM4bg?e=nbn60i)
+![image](image/2024072701.jpg)
 
 ----
 
@@ -1058,7 +1058,7 @@
 我们这一生会遇见许多人，也许隔着山海，也许近在咫尺。但大多数人却只是擦肩而过，所以那些占据我人生岁月长久的人，我都渴望留下许多记忆。四季辗转，人间会发生许许多多的意外，我不确定自己能活多久，或许10年、或许20年、也或许明天……    
 我的本意呀是一直陪着你。我无法形容浪漫，只知它总有似情人般的娇羞可爱，而有你，我才感知鲜活；有你，我才愿意接受自己的平庸！
 
-[![image](image/2024072801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeJxmKohbf1Mo7MFIMOWbi8Bveur9ms4JPlC97QFJf2wDg?e=ryPvtP)
+![image](image/2024072801.jpg)
 
 ----
 
@@ -1066,7 +1066,7 @@
 
 我永远不要做别人退而求其次的选择！！！
 
-[![image](image/2024072901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EUfHuNp9qZBNq9h758EIpaoB56yjw6KOqxIvTF5wVHxDZA?e=dEhOg9)
+![image](image/2024072901.jpg)
 
 ----
 
@@ -1080,7 +1080,7 @@
 缝缝补补
 直到有一天我不想要了"
 
-[![image](image/2024073101.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EWhpNJfzbJhAlpc25HsgPPgBF6eDXgc7Urd-wqpyHODx-Q?e=uD07Jz)
+![image](image/2024073101.jpg)
 
 ----
 
@@ -1089,7 +1089,7 @@
 若无良木可栖，无候鸟相依，也可孤身而去，可随风而起，可畅游天地。    
 平芜尽处，无青山白月，亦有碧海无垠。
 
-[![image](image/2024081001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EXEcAXZdUB5EmxKGxoUrFT4BWyOrYTTiYKLdyt8ANTiNcQ?e=Uftgke)
+![image](image/2024081001.jpg)
 
 ----
 
@@ -1097,7 +1097,7 @@
 
 这一路走来，好像身边有很多人，好像一直都只有我一个人，当真正发现这件事的时候也难免哽咽。大概每个人都会有很多心事，如果一定需要讲的话，那我一定会流泪的。所以我只是希望我可以安安静静的一个人呆着，叹气也好，哭泣也好，慢慢的、好好的活着。    
 
-[![image](image/2024081901.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EcsQ7Lu_Ux9BvWf-A5Xuss4BJJiFjK2CeG3KKSo1Nib2Xg?e=X25B2e)    
+![image](image/2024081901.jpg)
 
 ----
 
@@ -1105,7 +1105,7 @@
 
 所以人的感受非一时一事而成，而这个世界也总是让你在破碎里反复留恋，其实没有必要听风说这朵花怎么样，就随你的心吧。    
 
-[![image](image/2024082301.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EZwbQCqd-whCj-PvOi6ztl4BKk1p2pPFSNJtAfD6JC9M6Q?e=94Dcdz)
+![image](image/2024082301.jpg)
 
 ----
 
@@ -1115,7 +1115,7 @@
 和一个人渐行渐远，一开始是不愿相信的，需要走过很长很长的路，反反复复的听某一首歌，然后在某一个深夜，突然就发现那个人早已找不到了。    
 相逢是意外，离别是常态！
 
-[![image](image/2024082401.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EeQZwDon-ThIjK8Eh2ueOa8B-0qouuEYI2Sr-s0FHbC8lw?e=vbJicF)
+![image](image/2024082401.jpg)
 
 ----
 
@@ -1123,7 +1123,7 @@
 
 [变化这个东西太奇怪了，你形容不出来，但你就是知道一切已经不一样了。很多人在情绪不稳定时，会通过表达爱意来替代表达沮丧。如果你的朋友突然向你表达了爱意和思念，多半是她被情绪击溃了，所以才向你靠拢，此刻她正在坠落，而你可能是她唯一信赖的人。 ](https://heyebei-my.sharepoint.com/:u:/g/personal/heyebei_heyebei_onmicrosoft_com/EWVQZFyA5qRPo3lFIiz7p1ABq02RRegu1iFISOtdJDQSqw?e=dDNpfq)
 
-[![image](image/2024082801.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/ESl6StGMOtRLvvcqEU3nkAkB5tSPIOglFPkpSTE9voz1Kw?e=6C6nnk)
+![image](image/2024082801.jpg)
 
 ----
 
@@ -1134,6 +1134,6 @@
 
 也许生活就是这样，你没有得到答案的问题。也许过着过着就有答案了
 
-[![image](image/2024083001.jpg)](https://heyebei-my.sharepoint.com/:i:/g/personal/heyebei_heyebei_onmicrosoft_com/EaTgpWsZlLdPqh2qT33TrAcBCHJ9QmtzxtJjutNxp33VNA?e=wZCGMn)
+![image](image/2024083001.jpg)
 
 ----
