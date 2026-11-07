@@ -34,9 +34,9 @@ button, select { font: inherit; }
 .month-filter { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); font-size: .9rem; }
 .month-filter select { min-width: 130px; padding: 8px 32px 8px 12px; color: var(--ink); background: rgba(255,255,255,.72); border: 1px solid var(--line); border-radius: 999px; }
 .page-status { margin: 0; color: var(--muted); font-size: .86rem; }
-.timeline { min-height: 220px; }
+.timeline { min-height: 220px; perspective: 1400px; touch-action: pan-y; }
 
-/* Journal-paper card, with a folded date tab and a subtle paper edge. */
+/* A layered paper sheet with notebook ruling and a warm card shadow. */
 .entry {
   position: relative;
   display: grid;
@@ -51,6 +51,8 @@ button, select { font: inherit; }
     repeating-linear-gradient(to bottom, transparent 0, transparent 35px, rgba(102,132,157,.075) 36px, transparent 37px),
     var(--paper);
   box-shadow: 0 2px 3px rgba(64,43,35,.035), 0 18px 38px rgba(76,52,43,.09);
+  transform-origin: 50% 50%;
+  will-change: transform, opacity, filter;
   transition: box-shadow .25s ease, transform .25s ease;
 }
 .entry::before {
@@ -62,25 +64,9 @@ button, select { font: inherit; }
   border-radius: 4px 22px 4px 22px;
   background: #f9f4ed;
 }
-.entry:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(64,43,35,.04), 0 24px 48px rgba(76,52,43,.12); }
-.entry-date {
-  position: relative;
-  margin: 6px 0 0;
-  padding: 5px 0 12px;
-  text-align: right;
-  color: var(--muted);
-  font-size: 1.02rem;
-  font-weight: 600;
-  letter-spacing: .03em;
-}
-.entry-date::before {
-  content: "DATE";
-  display: block;
-  margin-bottom: 5px;
-  color: rgba(144,91,85,.65);
-  font: 600 .62rem/1.4 sans-serif;
-  letter-spacing: .2em;
-}
+.entry:hover { box-shadow: 0 4px 8px rgba(64,43,35,.04), 0 24px 48px rgba(76,52,43,.12); }
+.entry-date { position: relative; margin: 6px 0 0; padding: 5px 0 12px; text-align: right; color: var(--muted); font-size: 1.02rem; font-weight: 600; letter-spacing: .03em; }
+.entry-date::before { content: "DATE"; display: block; margin-bottom: 5px; color: rgba(144,91,85,.65); font: 600 .62rem/1.4 sans-serif; letter-spacing: .2em; }
 .entry-date::after { content: ""; position: absolute; top: 11px; right: -17px; width: 9px; height: 9px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 5px rgba(144,91,85,.12); }
 .entry-body { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
 .entry-image-list { display: flex; flex-direction: column; gap: 14px; }
@@ -93,6 +79,17 @@ button, select { font: inherit; }
 .entry-text p:last-child { margin-bottom: 0; }
 .entry-text .attribution { text-align: right; color: var(--muted); }
 .entry-text a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+
+/* The single diary page turns like a physical card. */
+.entry-leave-to-left { pointer-events: none; animation: card-leave-left .19s ease-in both; }
+.entry-leave-to-right { pointer-events: none; animation: card-leave-right .19s ease-in both; }
+.entry-arrive-from-right { animation: card-arrive-right .46s cubic-bezier(.2,.72,.24,1) both; }
+.entry-arrive-from-left { animation: card-arrive-left .46s cubic-bezier(.2,.72,.24,1) both; }
+@keyframes card-leave-left { to { opacity: 0; transform: translateX(-36px) rotateY(3deg) scale(.985); filter: blur(2px); } }
+@keyframes card-leave-right { to { opacity: 0; transform: translateX(36px) rotateY(-3deg) scale(.985); filter: blur(2px); } }
+@keyframes card-arrive-right { from { opacity: 0; transform: translateX(42px) rotateY(-4deg) scale(.975); filter: blur(2px); } to { opacity: 1; transform: translateX(0) rotateY(0) scale(1); filter: blur(0); } }
+@keyframes card-arrive-left { from { opacity: 0; transform: translateX(-42px) rotateY(4deg) scale(.975); filter: blur(2px); } to { opacity: 1; transform: translateX(0) rotateY(0) scale(1); filter: blur(0); } }
+
 .pagination { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 24px 0 0; }
 .pagination[hidden] { display: none; }
 .page-button { min-width: 112px; padding: 9px 16px; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); background: rgba(255,255,255,.78); cursor: pointer; transition: background .2s, transform .2s; }
@@ -130,5 +127,5 @@ button, select { font: inherit; }
   .lightbox-next { right: 4px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
