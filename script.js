@@ -1,5 +1,3 @@
-const PAGE_SIZE = 1;
-
 const timeline = document.getElementById('timeline');
 const monthFilter = document.getElementById('month-filter');
 const pagination = document.getElementById('pagination');
@@ -19,6 +17,8 @@ let visibleEntries = [];
 let currentPage = 0;
 let lightboxImages = [];
 let lightboxIndex = 0;
+let pageTransitioning = false;
+let touchStartX = null;
 
 fetch('./README.md')
   .then((response) => {
@@ -54,11 +54,27 @@ lightbox.addEventListener('click', (event) => {
 lightbox.addEventListener('close', () => {
   document.body.classList.remove('dialog-open');
 });
+timeline.addEventListener('touchstart', (event) => {
+  if (event.touches.length === 1) touchStartX = event.touches[0].clientX;
+}, { passive: true });
+timeline.addEventListener('touchend', (event) => {
+  if (touchStartX === null || !event.changedTouches.length) return;
+  const distance = event.changedTouches[0].clientX - touchStartX;
+  touchStartX = null;
+  if (Math.abs(distance) < 70) return;
+  // Swipe left to go to an older entry; swipe right to go to a newer entry.
+  changePage(distance < 0 ? 1 : -1);
+}, { passive: true });
 document.addEventListener('keydown', (event) => {
-  if (!lightbox.open) return;
-  if (event.key === 'Escape') closeLightbox();
-  if (event.key === 'ArrowLeft') moveLightbox(-1);
-  if (event.key === 'ArrowRight') moveLightbox(1);
+  if (lightbox.open) {
+    if (event.key === 'Escape') closeLightbox();
+    if (event.key === 'ArrowLeft') moveLightbox(-1);
+    if (event.key === 'ArrowRight') moveLightbox(1);
+    return;
+  }
+  if (event.altKey || event.ctrlKey || event.metaKey) return;
+  if (event.key === 'ArrowLeft') changePage(1);
+  if (event.key === 'ArrowRight') changePage(-1);
 });
 
 function parseEntries(markdown) {
@@ -96,13 +112,11 @@ function parseEntries(markdown) {
       continue;
     }
 
-    // Preserve the repository's right-aligned attribution paragraphs without accepting arbitrary HTML.
     const alignedMatch = line.match(/^<p\s+align=["']right["']>([\s\S]*)<\/p>$/i);
     if (alignedMatch) {
       current.blocks.push({ type: 'html-text', text: alignedMatch[1] });
       continue;
     }
-
     current.blocks.push({ type: 'text', text: line });
   }
 
@@ -128,7 +142,7 @@ function filterEntries() {
   renderPage();
 }
 
-function renderPage() {
+function renderPage(direction = 0) {
   timeline.replaceChildren();
   if (visibleEntries.length === 0) {
     showMessage('这个月份没有日记内容。');
@@ -141,6 +155,8 @@ function renderPage() {
   const article = document.createElement('article');
   article.className = 'entry';
   article.dataset.date = entry.dateKey;
+  if (direction > 0) article.classList.add('entry-arrive-from-right');
+  if (direction < 0) article.classList.add('entry-arrive-from-left');
 
   const date = document.createElement('h2');
   date.className = 'entry-date';
@@ -216,29 +232,44 @@ function appendInlineMarkdown(parent, source) {
 }
 
 function changePage(delta) {
+  if (pageTransitioning) return;
   const nextPage = currentPage + delta;
   if (nextPage < 0 || nextPage >= visibleEntries.length) return;
-  currentPage = nextPage;
-  renderPage();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  pageTransitioning = true;
+  const currentCard = timeline.querySelector('.entry');
+  if (!currentCard) {
+    currentPage = nextPage;
+    renderPage(delta);
+    pageTransitioning = false;
+    return;
+  }
+
+  currentCard.classList.add(delta > 0 ? 'entry-leave-to-left' : 'entry-leave-to-right');
+  window.setTimeout(() => {
+    currentPage = nextPage;
+    renderPage(delta);
+    pageTransitioning = false;
+    timeline.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 190);
 }
 
 function openLightbox(entry, selectedImage) {
   lightboxImages = entry.images;
   lightboxIndex = lightboxImages.indexOf(selectedImage);
-  updateLightbox();
+  updateLightbox(entry);
   if (typeof lightbox.showModal === 'function') {
     lightbox.showModal();
     document.body.classList.add('dialog-open');
   }
 }
 
-function updateLightbox() {
+function updateLightbox(entry = visibleEntries[currentPage]) {
   const image = lightboxImages[lightboxIndex];
   if (!image) return;
   lightboxImage.src = image.src;
   lightboxImage.alt = image.alt;
-  lightboxCaption.textContent = `${visibleEntries[currentPage].date} · ${lightboxIndex + 1} / ${lightboxImages.length}`;
+  lightboxCaption.textContent = `${entry.date} · ${lightboxIndex + 1} / ${lightboxImages.length}`;
   const multiple = lightboxImages.length > 1;
   lightboxPrevious.hidden = !multiple;
   lightboxNext.hidden = !multiple;
