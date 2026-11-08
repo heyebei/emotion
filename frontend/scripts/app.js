@@ -15,15 +15,15 @@ let lightboxImages = [];
 let lightboxIndex = 0;
 let currentLightboxEntry = null;
 
-fetch('../../README.md')
+fetch('../../diary/entries.md')
   .then((response) => {
-    if (!response.ok) throw new Error(`README.md loading failed: ${response.status}`);
+    if (!response.ok) throw new Error(`Diary markdown loading failed: ${response.status}`);
     return response.text();
   })
   .then((markdown) => {
     allEntries = parseEntries(markdown);
     if (allEntries.length === 0) {
-      showMessage('README.md 中没有找到带日期的日记内容。');
+      showMessage('日记文件中没有找到带日期的内容。');
       dateTimeline.hidden = true;
       return;
     }
@@ -32,7 +32,7 @@ fetch('../../README.md')
   })
   .catch((error) => {
     console.error(error);
-    showMessage('无法加载 README.md。请确认 GitHub Pages 已启用，并通过网页地址访问此页面。');
+    showMessage('无法加载日记内容，请确认 diary/entries.md 存在并通过网页地址访问此页面。');
   });
 
 monthFilter.addEventListener('change', filterEntries);
