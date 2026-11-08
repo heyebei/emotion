@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f0ec" />
+    <meta name="description" content="按日期整理的照片与文字记录。" />
+    <title>情绪日记 · 时间线</title>
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/timeline.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <p class="eyebrow">A PERSONAL JOURNAL</p>
+        <h1>情绪日记</h1>
+        <p class="subtitle">照片与文字，记下走过的日子</p>
+      </header>
+
+      <section class="controls" aria-label="日记筛选">
+        <label class="month-filter">
+          <span>按月份查看</span>
+          <select id="month-filter" aria-label="按月份筛选"></select>
+        </label>
+        <p id="page-status" class="page-status" aria-live="polite"></p>
+      </section>
+
+      <div class="journal-layout">
+        <main id="timeline" class="timeline" aria-live="polite"></main>
+        <nav id="date-timeline" class="date-timeline" aria-label="日记日期时间线"></nav>
+      </div>
+
+      <p class="editor-link-wrap">
+        <a class="editor-link" href="./editor.html">新增日记卡片</a>
+      </p>
+
+      <footer class="footer">日记内容来自 diary/entries.md</footer>
+    </div>
+
+    <dialog id="lightbox" class="lightbox" aria-label="照片预览">
+      <button id="lightbox-close" class="lightbox-close" type="button" aria-label="关闭照片预览">×</button>
+      <button id="lightbox-prev" class="lightbox-arrow lightbox-prev" type="button" aria-label="上一张照片">‹</button>
+      <img id="lightbox-image" alt="照片放大预览" />
+      <button id="lightbox-next" class="lightbox-arrow lightbox-next" type="button" aria-label="下一张照片">›</button>
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </dialog>
+
+    <script src="../scripts/app.js" defer></script>
+  </body>
+</html>

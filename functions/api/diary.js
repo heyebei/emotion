@@ -12,6 +12,7 @@ export async function onRequest(context) {
   const owner = env.GITHUB_OWNER || 'heyebei';
   const repo = env.GITHUB_REPO || 'emotion';
   const branch = env.GITHUB_BRANCH || 'main';
+  const diaryPath = 'diary/entries.md';
 
   if (!token) {
     return new Response(JSON.stringify({
@@ -36,7 +37,7 @@ export async function onRequest(context) {
       });
     }
 
-    const readmeResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/README.md?ref=${encodeURIComponent(branch)}`, {
+    const diaryResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${diaryPath}?ref=${encodeURIComponent(branch)}`, {
       headers: {
         Authorization: `Bearer ${token}`,
         Accept: 'application/vnd.github+json',
@@ -45,12 +46,10 @@ export async function onRequest(context) {
       },
     });
 
-    if (!readmeResponse.ok) {
-      throw new Error(`Failed to fetch README.md: ${readmeResponse.status}`);
-    }
+    if (!diaryResponse.ok) throw new Error(`Failed to fetch ${diaryPath}: ${diaryResponse.status}`);
 
-    const readmePayload = await readmeResponse.json();
-    const readmeText = decodeBase64Content(readmePayload.content);
+    const diaryPayload = await diaryResponse.json();
+    const diaryText = decodeBase64Content(diaryPayload.content);
 
     const existingImageNames = await listImageNames(owner, repo, branch, token);
     const nextByDate = new Map();
@@ -70,15 +69,13 @@ export async function onRequest(context) {
       const ext = getFileExtension(file.name || 'image.jpg');
       const imageName = `${base}${String(nextSeq).padStart(2, '0')}${ext}`;
       imageNames.push(imageName);
-
       const bytes = await file.arrayBuffer();
       await uploadToGitHub(owner, repo, branch, token, `image/${imageName}`, bytes, `Add image ${imageName}`);
     }
 
     const entryMarkdown = buildEntryMarkdown(date, content, imageNames);
-    const updatedReadme = readmeText + (readmeText.endsWith('\n') ? '' : '\n') + entryMarkdown;
-
-    const updateResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/README.md`, {
+    const updatedDiary = diaryText + (diaryText.endsWith('\n') ? '' : '\n') + entryMarkdown;
+    const updateResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${diaryPath}`, {
       method: 'PUT',
       headers: {
         Authorization: `Bearer ${token}`,
@@ -90,14 +87,14 @@ export async function onRequest(context) {
       body: JSON.stringify({
         message: `Add diary entry for ${date}`,
         branch,
-        sha: readmePayload.sha,
-        content: encodeBase64String(updatedReadme),
+        sha: diaryPayload.sha,
+        content: encodeBase64String(updatedDiary),
       }),
     });
 
     if (!updateResponse.ok) {
       const errorText = await updateResponse.text();
-      throw new Error(`Failed to update README.md: ${updateResponse.status} ${errorText}`);
+      throw new Error(`Failed to update ${diaryPath}: ${updateResponse.status} ${errorText}`);
     }
 
     return new Response(JSON.stringify({
@@ -130,16 +127,10 @@ async function listImageNames(owner, repo, branch, token) {
       'User-Agent': 'cloudflare-pages',
     },
   });
-
-  if (!response.ok) {
-    return [];
-  }
-
+  if (!response.ok) return [];
   const payload = await response.json();
   if (!Array.isArray(payload)) return [];
-  return payload
-    .filter((item) => item && item.type === 'file')
-    .map((item) => item.name || '');
+  return payload.filter((item) => item && item.type === 'file').map((item) => item.name || '');
 }
 
 async function uploadToGitHub(owner, repo, branch, token, path, bytes, message) {
@@ -158,7 +149,6 @@ async function uploadToGitHub(owner, repo, branch, token, path, bytes, message) 
       content: uint8ToBase64(new Uint8Array(bytes)),
     }),
   });
-
   if (!response.ok) {
     const text = await response.text();
     throw new Error(`GitHub upload failed for ${path}: ${response.status} ${text}`);
@@ -210,8 +200,7 @@ function encodeBase64String(value) {
   let binary = '';
   const chunkSize = 0x8000;
   for (let i = 0; i < bytes.length; i += chunkSize) {
-    const chunk = bytes.subarray(i, i + chunkSize);
-    binary += String.fromCharCode(...chunk);
+    binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
   }
   return btoa(binary);
 }
@@ -220,8 +209,7 @@ function uint8ToBase64(bytes) {
   let binary = '';
   const chunkSize = 0x8000;
   for (let i = 0; i < bytes.length; i += chunkSize) {
-    const chunk = bytes.subarray(i, i + chunkSize);
-    binary += String.fromCharCode(...chunk);
+    binary += String.fromCharCode(...bytes.subarray(i, i + chunkSize));
   }
   return btoa(binary);
 }
