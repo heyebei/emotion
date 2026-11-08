@@ -80,8 +80,9 @@ document.addEventListener('keydown', (event) => {
 function parseEntries(markdown) {
   // Ignore archived/commented-out entries so only active Markdown content is shown.
   const activeMarkdown = markdown.replace(/<!--[\s\S]*?-->/g, '');
-  const entriesByDate = new Map();
+  const entries = [];
   let current = null;
+  let sequence = 0;
 
   for (const rawLine of activeMarkdown.split(/\r?\n/)) {
     const line = rawLine.trim();
@@ -89,16 +90,16 @@ function parseEntries(markdown) {
     if (dateMatch) {
       const [, year, month, day] = dateMatch;
       const dateKey = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
-      if (!entriesByDate.has(dateKey)) {
-        entriesByDate.set(dateKey, {
-          dateKey,
-          date: `${year}年${Number(month)}月${Number(day)}日`,
-          monthKey: `${year}-${month.padStart(2, '0')}`,
-          blocks: [],
-          images: [],
-        });
-      }
-      current = entriesByDate.get(dateKey);
+      current = {
+        dateKey,
+        date: `${year}年${Number(month)}月${Number(day)}日`,
+        monthKey: `${year}-${month.padStart(2, '0')}`,
+        blocks: [],
+        images: [],
+        sequence,
+      };
+      entries.push(current);
+      sequence += 1;
       continue;
     }
 
@@ -120,7 +121,11 @@ function parseEntries(markdown) {
     current.blocks.push({ type: 'text', text: line });
   }
 
-  return [...entriesByDate.values()].sort((a, b) => b.dateKey.localeCompare(a.dateKey));
+  return entries.sort((a, b) => {
+    const dateDiff = b.dateKey.localeCompare(a.dateKey);
+    if (dateDiff !== 0) return dateDiff;
+    return a.sequence - b.sequence;
+  });
 }
 
 function populateMonthFilter() {
