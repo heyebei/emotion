@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f0ec" />
+    <meta name="description" content="新增一张情绪日记卡片" />
+    <title>新增日记卡片</title>
+    <style>
+      :root {
+        --bg: #f3eee8;
+        --paper: #fffdf9;
+        --ink: #332724;
+        --muted: #8b7068;
+        --line: rgba(105, 73, 70, 0.16);
+        --accent: #905b55;
+        --shadow: 0 16px 42px rgba(76, 52, 43, 0.09);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: radial-gradient(circle at 50% 0, rgba(255,255,255,.92), transparent 58%), var(--bg);
+        color: var(--ink);
+        font-family: "Noto Serif SC", "Songti SC", "STSong", "PingFang SC", "Microsoft YaHei", serif;
+      }
+      .wrap {
+        width: min(980px, calc(100vw - 32px));
+        margin: 0 auto;
+        padding: 42px 0 56px;
+      }
+      .panel {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 24px;
+        box-shadow: var(--shadow);
+        padding: 28px;
+      }
+      h1 {
+        margin: 0 0 22px;
+        font-size: clamp(2rem, 4vw, 3rem);
+        letter-spacing: 0.08em;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+      }
+      label {
+        display: block;
+        margin-bottom: 18px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      input, textarea, button {
+        width: 100%;
+        font: inherit;
+      }
+      input[type="date"], textarea, input[type="file"] {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 12px 14px;
+        background: rgba(255,255,255,.8);
+        color: var(--ink);
+      }
+      textarea {
+        min-height: 220px;
+        resize: vertical;
+      }
+      .preview {
+        margin-top: 24px;
+        background: rgba(255,255,255,.7);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 16px;
+      }
+      .preview h2 {
+        margin: 0 0 12px;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+      pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+        margin: 0;
+        font-size: 0.8rem;
+        line-height: 1.7;
+        font-family: "SFMono-Regular", Consolas, monospace;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      button {
+        border: 0;
+        border-radius: 999px;
+        padding: 12px 18px;
+        background: var(--accent);
+        color: white;
+        cursor: pointer;
+      }
+      button.secondary {
+        background: rgba(144, 91, 85, 0.12);
+        color: var(--ink);
+      }
+      .status {
+        margin-top: 18px;
+        min-height: 24px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      @media (max-width: 700px) {
+        .grid { grid-template-columns: 1fr; }
+        .panel { padding: 20px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="panel">
+        <h1>新增日记卡片</h1>
+
+        <form id="diary-form">
+          <div class="grid">
+            <div>
+              <label>
+                日期
+                <input id="entry-date" name="date" type="date" required />
+              </label>
+
+              <label>
+                上传照片（原图）
+                <input id="image-input" name="images" type="file" accept="image/*" multiple required />
+              </label>
+
+              <div id="file-list" class="status">未选择图片</div>
+            </div>
+
+            <div>
+              <label>
+                内容
+                <textarea id="entry-text" name="content" placeholder="写下你的心事..." required></textarea>
+              </label>
+            </div>
+          </div>
+
+          <div class="preview">
+            <h2>生成结果预览</h2>
+            <pre id="markdown-output">请输入日期和内容</pre>
+          </div>
+
+          <div class="actions">
+            <button type="submit">保存到仓库</button>
+            <button type="button" class="secondary" id="preview-btn">仅预览</button>
+            <button type="button" class="secondary" id="back-btn">返回主页</button>
+          </div>
+        </form>
+
+        <div id="status" class="status" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <script>
+      const dateInput = document.getElementById('entry-date');
+      const textInput = document.getElementById('entry-text');
+      const imageInput = document.getElementById('image-input');
+      const fileList = document.getElementById('file-list');
+      const previewOutput = document.getElementById('markdown-output');
+      const statusEl = document.getElementById('status');
+      const form = document.getElementById('diary-form');
+
+      const today = new Date();
+      const yyyy = today.getFullYear();
+      const mm = String(today.getMonth() + 1).padStart(2, '0');
+      const dd = String(today.getDate()).padStart(2, '0');
+      dateInput.value = `${yyyy}-${mm}-${dd}`;
+      renderPreview();
+
+      imageInput.addEventListener('change', () => {
+        const files = Array.from(imageInput.files || []);
+        fileList.textContent = files.length
+          ? `已选择 ${files.length} 张图片：${files.map((file) => file.name).join(', ')}`
+          : '未选择图片';
+        renderPreview();
+      });
+
+      textInput.addEventListener('input', renderPreview);
+      dateInput.addEventListener('change', renderPreview);
+
+      document.getElementById('preview-btn').addEventListener('click', () => {
+        renderPreview();
+        statusEl.textContent = '预览已更新。';
+      });
+
+      document.getElementById('back-btn').addEventListener('click', () => {
+        window.location.href = './index.html';
+      });
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const files = Array.from(imageInput.files || []);
+        const date = dateInput.value;
+        const content = textInput.value.trim();
+
+        if (!date || !content || files.length === 0) {
+          statusEl.textContent = '请填写日期、内容，并至少上传一张照片。';
+          return;
+        }
+
+        statusEl.textContent = '正在保存中...';
+
+        const formData = new FormData();
+        formData.append('date', date);
+        formData.append('content', content);
+        files.forEach((file) => formData.append('images', file));
+
+        try {
+          const response = await fetch('/api/diary', {
+            method: 'POST',
+            body: formData,
+          });
+
+          const result = await response.json().catch(() => ({}));
+          if (!response.ok) {
+            throw new Error(result.error || '保存失败');
+          }
+
+          statusEl.textContent = `保存成功：${result.images.join(', ')}`;
+          previewOutput.textContent = result.markdown;
+        } catch (error) {
+          statusEl.textContent = error.message || '保存失败，请重试。';
+        }
+      });
+
+      function renderPreview() {
+        const date = dateInput.value;
+        const content = textInput.value.trim();
+        const files = Array.from(imageInput.files || []);
+
+        if (!date || !content || files.length === 0) {
+          previewOutput.textContent = '请输入日期和内容，并至少上传一张照片。';
+          return;
+        }
+
+        const entries = [];
+        files.forEach((file, index) => {
+          const name = buildImageName(date, index + 1, file.name);
+          entries.push(`![image](image/${name})`);
+        });
+
+        const markdown = [
+          `--${toChineseDate(date)}`,
+          '',
+          content,
+          '',
+          entries.join('\n'),
+          '',
+          '----',
+          '',
+        ].join('\n');
+
+        previewOutput.textContent = markdown;
+      }
+
+      function buildImageName(dateValue, index, originalName) {
+        const [year, month, day] = dateValue.split('-');
+        const ext = getExtension(originalName);
+        return `${year}${month}${day}${String(index).padStart(2, '0')}${ext}`;
+      }
+
+      function toChineseDate(dateValue) {
+        const [year, month, day] = dateValue.split('-').map(Number);
+        return `${year}年${month}月${day}日`;
+      }
+
+      function getExtension(fileName) {
+        const lower = fileName.toLowerCase();
+        if (lower.endsWith('.png')) return '.png';
+        if (lower.endsWith('.jpg') || lower.endsWith('.jpeg')) return '.jpg';
+        if (lower.endsWith('.webp')) return '.webp';
+        if (lower.endsWith('.gif')) return '.gif';
+        return '.jpg';
+      }
+    </script>
+  </body>
+</html>
