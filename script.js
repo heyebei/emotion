@@ -1,10 +1,7 @@
 const timeline = document.getElementById('timeline');
+const dateTimeline = document.getElementById('date-timeline');
 const monthFilter = document.getElementById('month-filter');
-const pagination = document.getElementById('pagination');
-const previousButton = document.getElementById('previous-page');
-const nextButton = document.getElementById('next-page');
 const pageStatus = document.getElementById('page-status');
-const paginationLabel = document.getElementById('pagination-label');
 const lightbox = document.getElementById('lightbox');
 const lightboxImage = document.getElementById('lightbox-image');
 const lightboxCaption = document.getElementById('lightbox-caption');
@@ -14,11 +11,9 @@ const lightboxNext = document.getElementById('lightbox-next');
 
 let allEntries = [];
 let visibleEntries = [];
-let currentPage = 0;
 let lightboxImages = [];
 let lightboxIndex = 0;
-let pageTransitioning = false;
-let touchStartX = null;
+let currentLightboxEntry = null;
 
 fetch('./README.md')
   .then((response) => {
@@ -29,6 +24,7 @@ fetch('./README.md')
     allEntries = parseEntries(markdown);
     if (allEntries.length === 0) {
       showMessage('README.md 中没有找到带日期的日记内容。');
+      dateTimeline.hidden = true;
       return;
     }
     populateMonthFilter();
@@ -39,12 +35,7 @@ fetch('./README.md')
     showMessage('无法加载 README.md。请确认 GitHub Pages 已启用，并通过网页地址访问此页面。');
   });
 
-monthFilter.addEventListener('change', () => {
-  currentPage = 0;
-  filterEntries();
-});
-previousButton.addEventListener('click', () => changePage(-1));
-nextButton.addEventListener('click', () => changePage(1));
+monthFilter.addEventListener('change', filterEntries);
 lightboxClose.addEventListener('click', closeLightbox);
 lightboxPrevious.addEventListener('click', () => moveLightbox(-1));
 lightboxNext.addEventListener('click', () => moveLightbox(1));
@@ -54,27 +45,11 @@ lightbox.addEventListener('click', (event) => {
 lightbox.addEventListener('close', () => {
   document.body.classList.remove('dialog-open');
 });
-timeline.addEventListener('touchstart', (event) => {
-  if (event.touches.length === 1) touchStartX = event.touches[0].clientX;
-}, { passive: true });
-timeline.addEventListener('touchend', (event) => {
-  if (touchStartX === null || !event.changedTouches.length) return;
-  const distance = event.changedTouches[0].clientX - touchStartX;
-  touchStartX = null;
-  if (Math.abs(distance) < 70) return;
-  // Swipe left to go to an older entry; swipe right to go to a newer entry.
-  changePage(distance < 0 ? 1 : -1);
-}, { passive: true });
 document.addEventListener('keydown', (event) => {
-  if (lightbox.open) {
-    if (event.key === 'Escape') closeLightbox();
-    if (event.key === 'ArrowLeft') moveLightbox(-1);
-    if (event.key === 'ArrowRight') moveLightbox(1);
-    return;
-  }
-  if (event.altKey || event.ctrlKey || event.metaKey) return;
-  if (event.key === 'ArrowLeft') changePage(1);
-  if (event.key === 'ArrowRight') changePage(-1);
+  if (!lightbox.open) return;
+  if (event.key === 'Escape') closeLightbox();
+  if (event.key === 'ArrowLeft') moveLightbox(-1);
+  if (event.key === 'ArrowRight') moveLightbox(1);
 });
 
 function parseEntries(markdown) {
@@ -123,8 +98,7 @@ function parseEntries(markdown) {
 
   return entries.sort((a, b) => {
     const dateDiff = b.dateKey.localeCompare(a.dateKey);
-    if (dateDiff !== 0) return dateDiff;
-    return a.sequence - b.sequence;
+    return dateDiff || a.sequence - b.sequence;
   });
 }
 
@@ -143,80 +117,107 @@ function filterEntries() {
   visibleEntries = selectedMonth === 'all'
     ? [...allEntries]
     : allEntries.filter((entry) => entry.monthKey === selectedMonth);
-  currentPage = Math.min(currentPage, Math.max(visibleEntries.length - 1, 0));
-  renderPage();
+  renderEntries();
+  renderDateTimeline();
 }
 
-function renderPage(direction = 0) {
+function renderEntries() {
   timeline.replaceChildren();
   if (visibleEntries.length === 0) {
     showMessage('这个月份没有日记内容。');
-    pagination.hidden = true;
     pageStatus.textContent = '';
     return;
   }
 
-  const entry = visibleEntries[currentPage];
-  const article = document.createElement('article');
-  article.className = 'entry';
-  article.dataset.date = entry.dateKey;
-  if (direction > 0) article.classList.add('entry-arrive-from-right');
-  if (direction < 0) article.classList.add('entry-arrive-from-left');
+  const fragment = document.createDocumentFragment();
+  visibleEntries.forEach((entry, index) => {
+    const article = document.createElement('article');
+    article.className = 'entry';
+    article.dataset.date = entry.dateKey;
+    article.id = `entry-${entry.dateKey}-${index}`;
 
-  const date = document.createElement('h2');
-  date.className = 'entry-date';
-  date.textContent = entry.date;
-  article.append(date);
+    const date = document.createElement('h2');
+    date.className = 'entry-date';
+    date.textContent = entry.date;
+    article.append(date);
 
-  const body = document.createElement('div');
-  body.className = 'entry-body';
-  const imageList = document.createElement('div');
-  imageList.className = 'entry-image-list';
-  const text = document.createElement('div');
-  text.className = 'entry-text';
+    const body = document.createElement('div');
+    body.className = 'entry-body';
+    const imageList = document.createElement('div');
+    imageList.className = 'entry-image-list';
+    const text = document.createElement('div');
+    text.className = 'entry-text';
 
-  entry.blocks.forEach((block) => {
-    if (block.type === 'image') {
-      const figure = document.createElement('figure');
-      figure.className = 'entry-image';
-      const image = document.createElement('img');
-      image.src = block.image.src;
-      image.alt = block.image.alt;
-      image.loading = 'lazy';
-      image.tabIndex = 0;
-      image.setAttribute('role', 'button');
-      image.setAttribute('aria-label', `${entry.date}照片，点击放大`);
-      image.addEventListener('click', () => openLightbox(entry, block.image));
-      image.addEventListener('keydown', (event) => {
-        if (event.key === 'Enter' || event.key === ' ') {
-          event.preventDefault();
-          openLightbox(entry, block.image);
-        }
-      });
-      figure.append(image);
-      imageList.append(figure);
-      return;
-    }
+    entry.blocks.forEach((block) => {
+      if (block.type === 'image') {
+        const figure = document.createElement('figure');
+        figure.className = 'entry-image';
+        const image = document.createElement('img');
+        image.src = block.image.src;
+        image.alt = block.image.alt;
+        image.loading = 'lazy';
+        image.tabIndex = 0;
+        image.setAttribute('role', 'button');
+        image.setAttribute('aria-label', `${entry.date}照片，点击放大`);
+        image.addEventListener('click', () => openLightbox(entry, block.image));
+        image.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openLightbox(entry, block.image);
+          }
+        });
+        figure.append(image);
+        imageList.append(figure);
+        return;
+      }
 
-    const paragraph = document.createElement('p');
-    if (block.type === 'html-text') {
-      paragraph.className = 'attribution';
-      paragraph.textContent = block.text;
-    } else {
-      appendInlineMarkdown(paragraph, block.text);
-    }
-    text.append(paragraph);
+      const paragraph = document.createElement('p');
+      if (block.type === 'html-text') {
+        paragraph.className = 'attribution';
+        paragraph.textContent = block.text;
+      } else {
+        appendInlineMarkdown(paragraph, block.text);
+      }
+      text.append(paragraph);
+    });
+
+    body.append(imageList, text);
+    article.append(body);
+    fragment.append(article);
   });
+  timeline.append(fragment);
+  pageStatus.textContent = `共 ${visibleEntries.length} 篇记录 · ${new Set(visibleEntries.map((entry) => entry.dateKey)).size} 个日期`;
+}
 
-  body.append(imageList, text);
-  article.append(body);
-  timeline.append(article);
+function renderDateTimeline() {
+  dateTimeline.replaceChildren();
+  if (visibleEntries.length === 0) {
+    dateTimeline.hidden = true;
+    return;
+  }
 
-  pagination.hidden = false;
-  previousButton.disabled = currentPage >= visibleEntries.length - 1;
-  nextButton.disabled = currentPage <= 0;
-  paginationLabel.textContent = `${currentPage + 1} / ${visibleEntries.length}`;
-  pageStatus.textContent = `${entry.date} · ${currentPage + 1} / ${visibleEntries.length} 天`;
+  const dates = [...new Map(visibleEntries.map((entry, index) => [entry.dateKey, { entry, index }])).values()];
+  const list = document.createElement('ol');
+  list.className = 'date-timeline-list';
+  dates.forEach(({ entry, index }) => {
+    const item = document.createElement('li');
+    item.className = 'date-timeline-item';
+    const button = document.createElement('button');
+    button.className = 'date-timeline-link';
+    button.type = 'button';
+    button.textContent = entry.date;
+    button.setAttribute('aria-label', `跳转到${entry.date}的日记`);
+    button.addEventListener('click', () => {
+      const target = document.getElementById(`entry-${entry.dateKey}-${index}`);
+      target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      list.querySelectorAll('.date-timeline-link').forEach((link) => link.removeAttribute('aria-current'));
+      button.setAttribute('aria-current', 'date');
+    });
+    item.append(button);
+    list.append(item);
+  });
+  dateTimeline.append(list);
+  dateTimeline.hidden = false;
 }
 
 function appendInlineMarkdown(parent, source) {
@@ -236,45 +237,23 @@ function appendInlineMarkdown(parent, source) {
   parent.append(document.createTextNode(source.slice(cursor)));
 }
 
-function changePage(delta) {
-  if (pageTransitioning) return;
-  const nextPage = currentPage + delta;
-  if (nextPage < 0 || nextPage >= visibleEntries.length) return;
-
-  pageTransitioning = true;
-  const currentCard = timeline.querySelector('.entry');
-  if (!currentCard) {
-    currentPage = nextPage;
-    renderPage(delta);
-    pageTransitioning = false;
-    return;
-  }
-
-  currentCard.classList.add(delta > 0 ? 'entry-leave-to-left' : 'entry-leave-to-right');
-  window.setTimeout(() => {
-    currentPage = nextPage;
-    renderPage(delta);
-    pageTransitioning = false;
-    timeline.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, 190);
-}
-
 function openLightbox(entry, selectedImage) {
+  currentLightboxEntry = entry;
   lightboxImages = entry.images;
   lightboxIndex = lightboxImages.indexOf(selectedImage);
-  updateLightbox(entry);
+  updateLightbox();
   if (typeof lightbox.showModal === 'function') {
     lightbox.showModal();
     document.body.classList.add('dialog-open');
   }
 }
 
-function updateLightbox(entry = visibleEntries[currentPage]) {
+function updateLightbox() {
   const image = lightboxImages[lightboxIndex];
   if (!image) return;
   lightboxImage.src = image.src;
   lightboxImage.alt = image.alt;
-  lightboxCaption.textContent = `${entry.date} · ${lightboxIndex + 1} / ${lightboxImages.length}`;
+  lightboxCaption.textContent = `${currentLightboxEntry.date} · ${lightboxIndex + 1} / ${lightboxImages.length}`;
   const multiple = lightboxImages.length > 1;
   lightboxPrevious.hidden = !multiple;
   lightboxNext.hidden = !multiple;
