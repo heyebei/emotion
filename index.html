@@ -7,6 +7,7 @@
     <meta name="description" content="按日期整理的照片与文字记录。" />
     <title>情绪日记 · 时间线</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./timeline.css" />
   </head>
   <body>
     <div class="page-shell">
@@ -16,7 +17,7 @@
         <p class="subtitle">照片与文字，记下走过的日子</p>
       </header>
 
-      <section class="controls" aria-label="日记筛选与翻页">
+      <section class="controls" aria-label="日记筛选">
         <label class="month-filter">
           <span>按月份查看</span>
           <select id="month-filter" aria-label="按月份筛选"></select>
@@ -24,13 +25,10 @@
         <p id="page-status" class="page-status" aria-live="polite"></p>
       </section>
 
-      <main id="timeline" class="timeline" aria-live="polite"></main>
-
-      <nav id="pagination" class="pagination" aria-label="日记分页" hidden>
-        <button id="previous-page" class="page-button" type="button">← 上一天</button>
-        <span id="pagination-label" class="pagination-label"></span>
-        <button id="next-page" class="page-button" type="button">下一天 →</button>
-      </nav>
+      <div class="journal-layout">
+        <main id="timeline" class="timeline" aria-live="polite"></main>
+        <nav id="date-timeline" class="date-timeline" aria-label="日记日期时间线"></nav>
+      </div>
 
       <footer class="footer">内容来自仓库中的 README.md</footer>
     </div>
