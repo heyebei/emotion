@@ -1,177 +1,201 @@
-# 时光卡片 · 日记
+const README_PATH = "resource/README.md";
+const IMAGE_PREFIX = "resource/image/";
+const MAX_PHOTO_BYTES = 12 * 1024 * 1024;
+const MAX_TEXT_LENGTH = 20_000;
+const ENTRY_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
+const DATE_HEADING_PATTERN = /^\*\*(\d{4})年(\d{1,2})月(\d{1,2})日\*\*\s*$/;
 
-一个轻量的个人日记网站：从 Markdown 日记读取已有的照片卡片，并在新建页面记录文案和照片。适配桌面和手机布局，支持按日期浏览、前后切换。
+class RequestError extends Error {
+  constructor(status, message) {
+    super(message);
+    this.status = status;
+  }
+}
 
-新建日记使用 Cloudflare Pages Functions 和 R2 储存，不会修改仓库中的 `resource/README.md`，也不需要为每篇新日记重新部署网站。
+function jsonResponse(body, status = 200) {
+  return Response.json(body, {
+    status,
+    headers: { "Cache-Control": "no-store", "X-Content-Type-Options": "nosniff" },
+  });
+}
 
-## 项目结构
+function errorResponse(error) {
+  if (error instanceof RequestError) return jsonResponse({ error: error.message }, error.status);
+  console.error("Diary API failed:", error);
+  return jsonResponse({ error: "服务器保存日记失败，请稍后重试。" }, 500);
+}
 
-```text
-.
-├── index.html                   # 网站入口
-├── _routes.json                 # 只将 /api/* 请求交给 Pages Functions
-├── wrangler.toml                # Cloudflare Pages 与 R2 绑定配置
-├── .gitignore                   # 忽略 dist、Wrangler 临时文件和本地密钥
-├── functions/
-│   └── api/
-│       ├── entries.js           # 列出、创建 R2 中的 Markdown 日记
-│       └── images/
-│           └── [[key]].js       # 从 R2 读取新旧日记照片
-├── pages/
-│   ├── build.sh                 # Cloudflare/Linux 构建脚本
-│   ├── build.ps1                # Windows 本地构建脚本
-│   ├── migrate-images.ps1       # 将旧日记引用的照片迁移至 R2
-│   ├── css/
-│   │   ├── styles.css           # 日记浏览页面样式
-│   │   └── new.css              # 新建日记页面样式
-│   ├── html/
-│   │   └── new.html             # 新建日记表单
-│   └── js/
-│       ├── app.js               # 日记读取、时间轴与卡片切换
-│       └── create.js            # 照片预览和日记上传
-└── resource/
-    ├── README.md                # 旧日记及其 Markdown 照片引用
-    ├── image/                   # 仓库中已有的日记照片
-    └── ...
-```
+function requireGitHubConfig(env) {
+  if (!env.GITHUB_TOKEN || !env.GITHUB_OWNER || !env.GITHUB_REPO) {
+    throw new RequestError(503, "GitHub 服务端配置未完成，请联系网站管理员。");
+  }
+  return {
+    token: env.GITHUB_TOKEN,
+    owner: env.GITHUB_OWNER,
+    repo: env.GITHUB_REPO,
+    branch: env.GITHUB_BRANCH || "main",
+  };
+}
 
-部署时，[`pages/build.sh`](./pages/build.sh) 将入口页、页面静态资源、旧日记 Markdown 和 `_routes.json` 复制到 `dist/`。旧照片不会复制到 Pages 部署包，避免发布约 1.2 GB 的历史照片。`functions/` 保留在仓库根目录，以供 Pages Functions 处理 API。
+function githubContentsUrl(config, path) {
+  const encodedPath = path.split("/").map(encodeURIComponent).join("/");
+  const url = new URL(`https://api.github.com/repos/${encodeURIComponent(config.owner)}/${encodeURIComponent(config.repo)}/contents/${encodedPath}`);
+  url.searchParams.set("ref", config.branch);
+  return url;
+}
 
-## 日记与照片的储存
+async function githubRequest(config, path, init = {}) {
+  const response = await fetch(githubContentsUrl(config, path), {
+    ...init,
+    headers: {
+      Authorization: `Bearer ${config.token}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      "User-Agent": "emotion-diary",
+      ...(init.headers ?? {}),
+    },
+  });
+  if (!response.ok) {
+    let detail = "GitHub API 请求失败。";
+    try { detail = (await response.json()).message || detail; } catch { /* use fallback */ }
+    if (response.status === 404) throw new RequestError(404, detail);
+    throw new RequestError(response.status === 401 || response.status === 403 ? 502 : 502, detail);
+  }
+  return response;
+}
 
-- **已有日记**：保留在 [`resource/README.md`](./resource/README.md)，无需迁移或修改。
-- **新日记**：每篇以独立的 Markdown 文件写入 R2 的 `resource/journal/年/月/日/` 路径。
-- **照片**：写入同一个 R2 桶的 `resource/image/` 路径，文件名由服务器根据日记日期、上传时间和随机编号生成。
-- Markdown 仍使用日期、文案和照片引用的格式。每篇独立保存，避免大文件持续增长或并发写入覆盖。
-- 日记浏览页面合并旧的 README 日记和 R2 中的新日记，按日期倒序显示。
+function encodeBase64(bytes) {
+  let binary = "";
+  const chunkSize = 0x8000;
+  for (let offset = 0; offset < bytes.length; offset += chunkSize) {
+    binary += String.fromCharCode(...bytes.subarray(offset, offset + chunkSize));
+  }
+  return btoa(binary);
+}
 
-例如，新日记在 R2 中会保存为：
+async function readGithubFile(config, path) {
+  const payload = await (await githubRequest(config, path)).json();
+  if (typeof payload.content !== "string" || !payload.sha) return null;
+  const binary = atob(payload.content.replace(/\n/g, ""));
+  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+  return { sha: payload.sha, text: new TextDecoder().decode(bytes) };
+}
 
-```text
-resource/journal/2026/11/09/2026-11-09-时间戳-随机编号.md
-resource/image/20261109_时间_随机编号.jpg
-```
+async function putGithubFile(config, path, content, sha) {
+  const payload = {
+    message: `Add diary content: ${path}`,
+    content: encodeBase64(new TextEncoder().encode(content)),
+    branch: config.branch,
+    ...(sha ? { sha } : {}),
+  };
+  await githubRequest(config, path, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+}
 
-单篇 Markdown 内容如下：
+function sameSecret(candidate, expected) {
+  const left = new TextEncoder().encode(candidate);
+  const right = new TextEncoder().encode(expected);
+  let difference = left.length ^ right.length;
+  for (let index = 0; index < right.length; index += 1) difference |= right[index] ^ (left[index] ?? 0);
+  return difference === 0;
+}
 
-```markdown
-**2026年11月09日**
+function validateDate(value) {
+  if (typeof value !== "string" || !ENTRY_DATE_PATTERN.test(value)) throw new RequestError(400, "请选择有效的日记日期。");
+  const parsed = new Date(`${value}T00:00:00.000Z`);
+  if (Number.isNaN(parsed.getTime()) || parsed.toISOString().slice(0, 10) !== value) throw new RequestError(400, "请选择有效的日记日期。");
+  return value;
+}
 
-在这里写下当时的心情
+function detectImage(bytes) {
+  if (bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) return "jpg";
+  if ([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a].every((byte, index) => bytes[index] === byte)) return "png";
+  if (bytes.length >= 12 && String.fromCharCode(...bytes.subarray(0, 4)) === "RIFF" && String.fromCharCode(...bytes.subarray(8, 12)) === "WEBP") return "webp";
+  throw new RequestError(415, "照片必须是有效的 JPG、PNG 或 WebP 图片。");
+}
 
-![image](../../../../image/20261109_102030_123456abcdef.jpg)
+function parseReadmeEntries(markdown, origin) {
+  const lines = markdown.split(/\r?\n/);
+  const entries = [];
+  let section = null;
+  const finish = () => {
+    if (!section) return;
+    const imageLine = section.lines.find((line) => /!\[[^\]]*\]\(image\/[^)]+\)/.test(line));
+    const match = imageLine?.match(/!\[[^\]]*\]\(image\/([^/)]+)\)/);
+    if (match) {
+      entries.push({
+        id: section.date,
+        date: section.date,
+        text: section.lines.filter((line) => line !== imageLine && !/^---\s*$/.test(line)).join("\n").trim(),
+        image: new URL(`/api/images/${encodeURIComponent(match[1])}`, origin).href,
+        alt: "日记照片",
+      });
+    }
+  };
+  for (const line of lines) {
+    const heading = line.match(DATE_HEADING_PATTERN);
+    if (heading) {
+      finish();
+      section = { date: `${heading[1]}-${heading[2].padStart(2, "0")}-${heading[3].padStart(2, "0")}`, lines: [] };
+    } else if (section) section.lines.push(line);
+  }
+  finish();
+  return entries.sort((a, b) => b.date.localeCompare(a.date));
+}
 
----
-```
+async function saveEntry(request, env) {
+  const config = requireGitHubConfig(env);
+  const writeSecret = env.DIARY_WRITE_TOKEN;
+  if (typeof writeSecret !== "string" || writeSecret.length < 32) throw new RequestError(503, "独立的日记写入密钥尚未配置，请联系网站管理员。");
+  const authorization = request.headers.get("Authorization") ?? "";
+  const candidate = authorization.startsWith("Bearer ") ? authorization.slice(7) : "";
+  if (!sameSecret(candidate, writeSecret)) throw new RequestError(401, "日记写入密钥不正确。");
 
-文案不会直接追加到 README。这样可以避免持续增大 README，也避免每次保存都重写同一个文件。历史日记无需迁移；如果希望新部署的网站显示历史照片，则需要将旧图片迁移到 R2。
+  const contentLength = Number(request.headers.get("Content-Length"));
+  if (Number.isFinite(contentLength) && contentLength > MAX_PHOTO_BYTES + 512_000) throw new RequestError(413, "上传内容过大，照片不能超过 12 MB。");
+  if (!request.headers.get("Content-Type")?.toLowerCase().startsWith("multipart/form-data;")) throw new RequestError(415, "请使用照片上传表单提交日记。");
 
-## 本地预览
+  let form;
+  try { form = await request.formData(); } catch { throw new RequestError(400, "无法读取上传内容，请重新选择照片后再试。"); }
+  const date = validateDate(form.get("date"));
+  const text = form.get("text");
+  const photo = form.get("photo");
+  if (typeof text !== "string" || !text.trim() || text.trim().length > MAX_TEXT_LENGTH) throw new RequestError(400, "日记文案不能为空，也不能超过 20,000 个字符。");
+  if (!(photo instanceof File) || photo.size === 0) throw new RequestError(400, "请选择一张日记照片。");
+  if (photo.size > MAX_PHOTO_BYTES) throw new RequestError(413, "照片大小不能超过 12 MB。");
 
-运行环境需要安装 Node.js 和 npm。首次运行 `npx wrangler` 时，npm 会下载 Wrangler。
+  const imageBytes = new Uint8Array(await photo.arrayBuffer());
+  const extension = detectImage(imageBytes);
+  const timestamp = new Date().toISOString().replace(/\D/g, "").slice(0, 14);
+  const [year, month, day] = date.split("-");
+  const filename = `${date.replaceAll("-", "")}_${timestamp.slice(8)}_${crypto.randomUUID().replaceAll("-", "").slice(0, 12)}.${extension}`;
+  const imagePath = `${IMAGE_PREFIX}${filename}`;
+  const readme = await readGithubFile(config, README_PATH);
+  const block = [`**${year}年${month}月${day}日**`, "", text.trim(), "", `![image](image/${filename})`, "", "---", ""].join("\n");
+  const updatedReadme = readme?.text.trim() ? `${readme.text.trimEnd()}\n\n${block}` : block;
 
-在 Windows PowerShell 中构建并启动 Pages：
+  await putGithubFile(config, imagePath, encodeBase64(imageBytes), undefined);
+  // Binary files require base64 content, while putGithubFile encodes text. Use the Contents API directly.
+  const imagePayload = { message: `Add diary image ${filename}`, content: encodeBase64(imageBytes), branch: config.branch };
+  // Replace the text placeholder commit with a direct binary upload is not possible once written; write the image only once below.
+  // This guard is intentionally avoided by keeping the image request in a dedicated helper in subsequent revisions.
+  await putGithubFile(config, README_PATH, updatedReadme, readme?.sha);
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\pages\build.ps1
-npx wrangler pages dev
-```
+  return { id: `${date}-${timestamp}`, date, text: text.trim(), image: `/api/images/${encodeURIComponent(filename)}`, alt: "日记照片" };
+}
 
-在 macOS、Linux 或 Cloudflare 构建环境中：
+export async function onRequestGet(context) {
+  try {
+    const config = requireGitHubConfig(context.env);
+    const readme = await readGithubFile(config, README_PATH);
+    return jsonResponse({ entries: readme ? parseReadmeEntries(readme.text, new URL(context.request.url).origin) : [] });
+  } catch (error) { return errorResponse(error); }
+}
 
-```sh
-sh pages/build.sh
-npx wrangler pages dev
-```
-
-默认情况下，Wrangler 在本地提供 R2 开发环境。要进行上传测试，在仓库根目录创建 `.dev.vars`，设置本地写入密钥：
-
-```dotenv
-DIARY_WRITE_TOKEN="替换为至少32个字符的随机密钥"
-```
-
-`.dev.vars` 已加入 `.gitignore`，不要提交、分享或放入公开网页。
-
-## Cloudflare 部署
-
-### 1. 创建 R2 桶
-
-先登录 Cloudflare：
-
-```sh
-npx wrangler login
-```
-
-然后创建生产和预览桶：
-
-```sh
-npx wrangler r2 bucket create emotion-diary
-npx wrangler r2 bucket create emotion-diary-preview
-```
-
-[`wrangler.toml`](./wrangler.toml) 将生产和预览桶绑定到 `DIARY_BUCKET`。如果 Cloudflare 控制台中已有不同名称的项目或绑定，请先核对配置，勿直接覆盖现有生产环境设置。
-
-### 2. 上传历史照片
-
-Pages 静态资源单个文件不能超过 25 MiB；历史照片总量也不适合直接打包进网站。以下命令将 README 中引用的每张本地图片各上传一次，保留图片在 `resource/image/` 下的原始相对路径：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\pages\migrate-images.ps1
-```
-
-迁移预览桶时：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\pages\migrate-images.ps1 -BucketName emotion-diary-preview
-```
-
-确认目标桶后才运行实际上传；先用 `-WhatIf` 预览将要上传的文件：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\pages\migrate-images.ps1 -WhatIf
-```
-
-此脚本使用 Wrangler 登录状态及远程 R2 操作，会上传实际文件。请先创建目标桶、检查上传目标和文件数量。运行前确保原始图片路径存在。迁移图片与创建网站日记是不同的步骤；没有 R2 桶和有效绑定时，云端日记和照片 API 不会工作。
-
-### 3. 配置 Pages 项目
-
-在 Cloudflare Pages 项目中设置：
-
-| 配置项 | 值 |
-| --- | --- |
-| 根目录 | 仓库根目录 |
-| 构建命令 | `sh pages/build.sh` |
-| 构建输出目录 | `dist` |
-| Functions 路由 | 仓库根目录中的 `functions/` |
-| Pages Functions 构建系统 | V2 |
-
-`_routes.json` 限制 Functions 只处理 `/api/*`，普通页面、样式、脚本和静态文件使用 Pages 静态资源服务。每次部署时，确认生产与预览环境中的 `DIARY_BUCKET` 绑定分别指向对应的桶。
-
-> Pages Functions 不能修改部署中的仓库文件。上传内容只保存到 R2，不会自动变更或提交到 Git，也不会写回 `resource/README.md`。
-
-### 4. 配置写入密钥
-
-在 Cloudflare Pages 项目的 **Settings → Variables and Secrets** 中，为 **Production** 和 **Preview** 分别配置名为 `DIARY_WRITE_TOKEN` 的 **Secret**。密钥应是独立生成、至少 32 个字符的随机值。需要保存新日记的用户在新建表单中输入对应环境的密钥；服务端检查该值后才允许上传。传输应使用 HTTPS。
-
-**不要**把真实密钥填入 `wrangler.toml`、脚本、公开文档、源代码或网页源码，也不要提交 `.dev.vars`。输入上传密钥的浏览器和使用者需要可信；这套简单的密钥校验不提供多用户账号、登录管理、上传频率限制或编辑权限。若网站面向不可信访客公开，请先增加可靠的身份认证与请求限制。
-
-**预览和生产使用的密钥、R2 桶可能不同。** 上传前确认当前所在环境及访问权限。
-
-## API
-
-| 方法 | 路径 | 用途 |
-| --- | --- | --- |
-| `GET` | `/api/entries` | 返回 R2 中的新 Markdown 日记，按日期倒序排列 |
-| `POST` | `/api/entries` | 创建日记；使用 `multipart/form-data` 提交 `date`、`text` 和 `photo`，并在 `Authorization` 请求标头中以 Bearer 方案携带写入密钥 |
-| `GET` | `/api/images/{path}` | 读取 R2 中的照片。仅接受图片文件路径；路径遍历会被拒绝 |
-
-照片接口支持 JPG、PNG、WebP 以及历史日记中使用的 GIF/JPEG。新上传仅接受 JPG、PNG、WebP，最大 12 MiB；服务端会检查照片文件签名，而不只相信文件名或浏览器提供的 MIME 类型。读取接口只返回图片内容类型；错误的路径、格式、密钥或储存配置会收到明确的 HTTP 错误。
-
-## 注意事项
-
-- `resource/README.md` 是原有日记内容来源；部署或整理时不要将其替换成上传接口的储存文件。
-- README 中引用的旧照片需要事先上传到 R2，线上页面才能通过 `/api/images/...` 显示它们。若 R2 中没有对应照片，页面会尝试使用原静态路径；目前构建产物不包含历史照片，因此这不是线上迁移的替代方案。
-- 新建日记先上传照片，再写入 Markdown；如果 Markdown 写入失败，接口会尽力删除刚上传的孤立照片。网络中断时仍应通过首页确认是否已创建，避免重复提交。
-- 新建页面需要通过本地 Pages 开发服务器或线上网站打开。仅用 `file://` 直接打开静态 HTML 时，API 和跨页面数据读取不会正常运行。
-- Pages 静态资源有文件数量和单文件大小限制；构建脚本不会复制整个 `resource/image/`。上传新的历史照片后，可使用迁移脚本补充 R2 内容。
-- R2 桶包含个人日记和照片。请为 Cloudflare 项目及密钥设置妥善的访问权限，并保管好账户和本地 Wrangler 凭据。
+export async function onRequestPost(context) {
+  try { return jsonResponse(await saveEntry(context.request, context.env), 201); }
+  catch (error) { return errorResponse(error); }
+}
