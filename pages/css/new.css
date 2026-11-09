@@ -1,0 +1,415 @@
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #777168;
+  font-size: 11px;
+  text-decoration: none;
+  transition: color 160ms ease;
+}
+
+.back-link:hover {
+  color: var(--accent-dark);
+}
+
+.back-link svg {
+  width: 16px;
+  height: 16px;
+}
+
+.compose-layout {
+  width: min(940px, 100%);
+  display: grid;
+  grid-template-columns: minmax(210px, 0.72fr) minmax(0, 1.28fr);
+  gap: clamp(42px, 8vw, 110px);
+  margin: clamp(48px, 9vh, 105px) auto 72px;
+  align-items: start;
+}
+
+.compose-intro {
+  position: sticky;
+  top: 54px;
+  padding-top: 21px;
+}
+
+.compose-intro > .eyebrow {
+  margin-bottom: 17px;
+}
+
+.compose-intro h1 {
+  margin: 0;
+  font-size: clamp(27px, 3vw, 37px);
+  font-weight: 500;
+  letter-spacing: 0.13em;
+}
+
+.compose-description {
+  margin: 19px 0 0;
+  color: #888277;
+  font-size: 12px;
+  letter-spacing: 0.035em;
+  line-height: 2.15;
+}
+
+.format-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  margin-top: 31px;
+  padding-top: 17px;
+  border-top: 1px solid var(--line);
+  color: #a19789;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.format-note-mark {
+  color: #ba8c70;
+  font-size: 13px;
+}
+
+.compose-form {
+  min-width: 0;
+  padding: clamp(23px, 4vw, 41px);
+  border: 1px solid #e7e2d9;
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 14px 40px rgba(67, 55, 39, 0.045);
+}
+
+.form-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 21px;
+  border-bottom: 1px solid var(--line);
+}
+
+.form-heading .eyebrow {
+  margin: 0 0 9px;
+}
+
+.form-heading h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+}
+
+.form-required {
+  padding-bottom: 2px;
+  color: #aaa399;
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.field-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 7px;
+  margin: 23px 0 9px;
+  color: #514d46;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+
+.field-label > span {
+  color: #a39d93;
+  font-size: 9px;
+  letter-spacing: 0;
+}
+
+.date-input,
+.token-input,
+.compose-form textarea {
+  width: 100%;
+  border: 1px solid #e5dfd5;
+  border-radius: 2px;
+  outline: none;
+  background: #fdfcf9;
+  color: #45413b;
+  font: inherit;
+  font-size: 12px;
+  transition: border-color 160ms ease;
+}
+
+.date-input:focus,
+.token-input:focus,
+.compose-form textarea:focus {
+  border-color: #bf9a83;
+}
+
+.date-input {
+  height: 41px;
+  padding: 0 12px;
+}
+
+.text-label {
+  margin-top: 22px;
+}
+
+.compose-form textarea {
+  min-height: 135px;
+  resize: vertical;
+  padding: 12px 13px;
+  font-size: 13px;
+  letter-spacing: 0.035em;
+  line-height: 1.9;
+}
+
+.compose-form textarea::placeholder,
+.token-input::placeholder {
+  color: #b7b1a7;
+}
+
+.text-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 7px;
+  color: #a39d93;
+  font-size: 9px;
+}
+
+.photo-label {
+  margin-top: 25px;
+}
+
+#entry-photo {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+#entry-photo:focus-visible + .photo-dropzone {
+  outline: 2px solid #bf9a83;
+  outline-offset: 3px;
+}
+
+.photo-dropzone {
+  position: relative;
+  min-height: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  overflow: hidden;
+  border: 1px dashed #d9cfc2;
+  background: #fdfcf9;
+  color: #817a70;
+  cursor: pointer;
+  text-align: center;
+  transition:
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.photo-dropzone:hover {
+  border-color: #bd9b83;
+  background: #fbf8f2;
+}
+
+.upload-mark {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #e8dfd4;
+  border-radius: 50%;
+  color: var(--accent);
+}
+
+.upload-mark svg {
+  width: 22px;
+  height: 22px;
+}
+
+.upload-title {
+  color: #635b50;
+  font-size: 11px;
+}
+
+.upload-description {
+  color: #a39d93;
+  font-size: 9px;
+}
+
+.upload-action {
+  margin-top: 3px;
+  color: var(--accent-dark);
+  font-size: 9px;
+  text-decoration: underline;
+  text-decoration-color: #d3b9a7;
+  text-underline-offset: 3px;
+}
+
+.photo-preview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #e8e3da;
+}
+
+.photo-preview[hidden] {
+  display: none;
+}
+
+.token-label {
+  margin-top: 24px;
+}
+
+.token-input {
+  height: 41px;
+  padding: 0 12px;
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.07em;
+}
+
+.form-message {
+  margin: 16px 0 0;
+  padding: 10px 12px;
+  border: 1px solid #e8d6ca;
+  background: #fbf5f0;
+  color: #885b47;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.form-message[data-kind="success"] {
+  border-color: #d9e3d3;
+  background: #f4f8f0;
+  color: #526646;
+}
+
+.form-message[hidden] {
+  display: none;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 13px;
+  margin-top: 24px;
+}
+
+.cancel-button,
+.submit-button {
+  min-height: 39px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 0 15px;
+  border-radius: 2px;
+  font-size: 11px;
+  text-decoration: none;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.cancel-button {
+  border: 1px solid #e4ded4;
+  color: #777168;
+}
+
+.cancel-button:hover {
+  border-color: #c9b9a8;
+  color: var(--accent-dark);
+}
+
+.submit-button {
+  min-width: 144px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button:hover:not(:disabled) {
+  border-color: var(--accent-dark);
+  background: var(--accent-dark);
+}
+
+.submit-button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.submit-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.storage-note {
+  margin: 15px 0 0;
+  color: #a39d93;
+  font-size: 9px;
+  line-height: 1.8;
+  text-align: right;
+}
+
+@media (max-width: 760px) {
+  .compose-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 33px auto 44px;
+  }
+
+  .compose-intro {
+    position: static;
+    padding: 0;
+  }
+
+  .compose-intro > .eyebrow {
+    margin-bottom: 9px;
+  }
+
+  .compose-intro h1 {
+    font-size: 25px;
+  }
+
+  .compose-description {
+    max-width: 470px;
+    margin-top: 10px;
+    font-size: 11px;
+  }
+
+  .format-note {
+    display: none;
+  }
+
+  .compose-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .page-shell {
+    padding: 0 15px;
+  }
+
+  .compose-form {
+    padding: 21px 17px;
+  }
+
+  .form-required {
+    font-size: 8px;
+  }
+
+  .storage-note {
+    text-align: left;
+  }
+}

@@ -1,0 +1,8 @@
+name = "emotion-diary"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-11-09"
+
+[[r2_buckets]]
+binding = "DIARY_BUCKET"
+bucket_name = "emotion-diary"
+preview_bucket_name = "emotion-diary-preview"

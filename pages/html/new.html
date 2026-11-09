@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="添加一张照片，留下一段属于今天的文字。"
+    />
+    <meta name="theme-color" content="#f6f3ed" />
+    <title>新建日记 · 时光卡片</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/new.css" />
+    <script src="../js/create.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="../../index.html" aria-label="返回时光卡片">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path
+                d="M7.5 9.5h17v16h-17z"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M11 6.5h13.5v16M11 14h10m-10 4h7"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-width="1.5"
+              />
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <span class="brand-name">时光卡片</span>
+            <span class="brand-caption">把日子，慢慢收藏</span>
+          </span>
+        </a>
+        <a class="back-link" href="../../index.html">
+          <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path
+              d="m12 4-6 6 6 6"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.6"
+            />
+          </svg>
+          <span>返回日记</span>
+        </a>
+      </header>
+
+      <main class="compose-layout">
+        <section class="compose-intro" aria-labelledby="page-title">
+          <p class="eyebrow">A NOTE TO REMEMBER</p>
+          <h1 id="page-title">写下今天</h1>
+          <p class="compose-description">
+            选一张照片，记下这一刻的心情。文字和照片会分别保存，日记仍然是熟悉的
+            Markdown 格式。
+          </p>
+          <div class="format-note">
+            <span class="format-note-mark" aria-hidden="true">✳</span>
+            <span>每一篇日记，都是一份独立的小小收藏</span>
+          </div>
+        </section>
+
+        <form class="compose-form" id="compose-form">
+          <div class="form-heading">
+            <div>
+              <p class="eyebrow">NEW JOURNAL</p>
+              <h2>一张新卡片</h2>
+            </div>
+            <span class="form-required">请填写所有项目</span>
+          </div>
+
+          <label class="field-label" for="entry-date">日记日期</label>
+          <input
+            class="date-input"
+            id="entry-date"
+            name="date"
+            type="date"
+            required
+          />
+
+          <label class="field-label text-label" for="entry-text">写点什么</label>
+          <textarea
+            id="entry-text"
+            name="text"
+            maxlength="20000"
+            placeholder="把此刻的心情，慢慢写下来……"
+            required
+            rows="7"
+          ></textarea>
+          <div class="text-meta">
+            <span>保持真实，就很好</span>
+            <span><span id="character-count">0</span> / 20,000</span>
+          </div>
+
+          <label class="field-label photo-label" for="entry-photo">
+            照片 <span>JPG、PNG 或 WebP，最大 12 MB</span>
+          </label>
+          <input
+            id="entry-photo"
+            name="photo"
+            type="file"
+            accept="image/jpeg,image/png,image/webp"
+            capture="environment"
+            required
+          />
+          <label class="photo-dropzone" for="entry-photo" id="photo-dropzone">
+            <img class="photo-preview" id="photo-preview" alt="所选日记照片预览" hidden />
+            <span class="upload-mark" id="upload-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M16 21V7m0 0-5 5m5-5 5 5M7 20v5h18v-5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </span>
+            <span class="upload-title" id="upload-title">选择一张照片</span>
+            <span class="upload-description" id="upload-description">
+              点击选择，也可以使用手机相机拍摄
+            </span>
+            <span class="upload-action" id="upload-action">浏览照片</span>
+          </label>
+
+          <label class="field-label token-label" for="write-token">
+            上传密钥
+            <span>仅用于验证写入权限，不会保存到日记中</span>
+          </label>
+          <input
+            class="token-input"
+            id="write-token"
+            name="token"
+            type="password"
+            autocomplete="current-password"
+            minlength="32"
+            placeholder="Cloudflare 部署后设置的日记写入密钥"
+            required
+          />
+
+          <p class="form-message" id="form-message" role="status" hidden></p>
+
+          <div class="form-actions">
+            <a class="cancel-button" href="../../index.html">取消</a>
+            <button class="submit-button" id="submit-button" type="submit">
+              <span id="submit-label">保存这篇日记</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true">
+                <path
+                  d="M4 10h12m-5-5 5 5-5 5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.5"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="storage-note">
+            图片将自动生成文件名；文案与图片分别写入 Cloudflare R2，不会覆盖仓库中的原有 README。
+          </p>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
