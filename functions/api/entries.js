@@ -1,12 +1,8 @@
-const JOURNAL_PREFIX = "resource/journal/";
+const STARTER_PATH = "resource/README.md";
 const IMAGE_PREFIX = "resource/image/";
 const MAX_PHOTO_BYTES = 12 * 1024 * 1024;
 const MAX_TEXT_LENGTH = 20_000;
 const ENTRY_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
-const ENTRY_MARKDOWN_PATTERN =
-  /^\*\*(\d{4})年(\d{2})月(\d{2})日\*\*\s*$/m;
-const ENTRY_IMAGE_PATTERN =
-  /^!\[image\]\((?:\.\.\/){4}image\/(\d{8}_\d{6}_[0-9a-f]{12}\.(?:jpg|png|webp))\)\s*$/m;
 
 class RequestError extends Error {
   constructor(status, message) {
@@ -34,78 +30,115 @@ function errorResponse(error) {
   return jsonResponse({ error: "服务器保存日记失败，请稍后重试。" }, 500);
 }
 
-function requireBucket(env) {
-  if (!env.DIARY_BUCKET) {
-    throw new RequestError(503, "日记存储尚未配置，请联系网站管理员。");
+function requireGithubConfig(env) {
+  if (!env.GITHUB_TOKEN || !env.GITHUB_OWNER || !env.GITHUB_REPO) {
+    throw new RequestError(
+      503,
+      "GitHub 仓库写入配置尚未完成，请联系网站管理员。",
+    );
   }
-  return env.DIARY_BUCKET;
-}
-
-function parseEntry(key, markdown, origin) {
-  const dateMatch = markdown.match(ENTRY_MARKDOWN_PATTERN);
-  const imageMatch = markdown.match(ENTRY_IMAGE_PATTERN);
-  if (!dateMatch || !imageMatch) {
-    console.error(`Ignoring invalid diary Markdown object: ${key}`);
-    return null;
-  }
-
-  const imageName = imageMatch[1];
-
-  const date = `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}`;
-  const imageIndex = markdown.indexOf(imageMatch[0]);
-  const headingIndex = markdown.indexOf(dateMatch[0]);
-  const text = markdown
-    .slice(headingIndex + dateMatch[0].length, imageIndex)
-    .trim();
 
   return {
-    id: key.slice(JOURNAL_PREFIX.length, -".md".length),
-    date,
-    text,
-    image: new URL(`/api/images/${encodeURIComponent(imageName)}`, origin).href,
-    alt: "日记照片",
+    token: env.GITHUB_TOKEN,
+    owner: env.GITHUB_OWNER,
+    repo: env.GITHUB_REPO,
   };
 }
 
-async function readDiaryEntries(bucket, origin) {
-  const entries = [];
-  let cursor;
+function githubContentPath(path) {
+  return path
+    .split("/")
+    .filter((segment) => segment.length > 0)
+    .map((segment) => encodeURIComponent(segment))
+    .join("/");
+}
 
-  do {
-    const page = await bucket.list({
-      prefix: JOURNAL_PREFIX,
-      limit: 1000,
-      ...(cursor ? { cursor } : {}),
-    });
+async function githubRequest(config, path, init = {}) {
+  const response = await fetch(
+    `https://api.github.com/repos/${config.owner}/${config.repo}/contents/${githubContentPath(path)}`,
+    {
+      ...init,
+      headers: {
+        Authorization: `Bearer ${config.token}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "emotion-diary",
+        ...(init.headers ?? {}),
+      },
+    },
+  );
 
-    for (let start = 0; start < page.objects.length; start += 40) {
-      const batch = page.objects.slice(start, start + 40);
-      const parsed = await Promise.all(
-        batch.map(async (object) => {
-          if (!object.key.endsWith(".md")) {
-            return null;
-          }
-
-          const stored = await bucket.get(object.key);
-          if (!stored) {
-            return null;
-          }
-
-          return parseEntry(object.key, await stored.text(), origin);
-        }),
-      );
-      entries.push(...parsed.filter(Boolean));
+  if (!response.ok) {
+    let details = "GitHub API 请求失败。";
+    try {
+      const payload = await response.json();
+      details = payload?.message || details;
+    } catch {
+      // ignore JSON parse errors and fall back to the default message.
     }
 
-    cursor = page.truncated ? page.cursor : undefined;
-  } while (cursor);
+    throw new RequestError(
+      response.status === 401 || response.status === 403 ? 401 : 500,
+      details,
+    );
+  }
 
-  entries.sort(
-    (left, right) =>
-      right.date.localeCompare(left.date) ||
-      right.id.localeCompare(left.id),
-  );
-  return entries;
+  return response;
+}
+
+async function readGithubFile(config, path) {
+  const response = await githubRequest(config, path, { method: "GET" });
+  const payload = await response.json();
+
+  if (!payload || typeof payload.content !== "string" || !payload.sha) {
+    return null;
+  }
+
+  const normalized = payload.content.replace(/\n/g, "");
+  const binary = atob(normalized);
+  const bytes = new Uint8Array(binary.length);
+  for (let index = 0; index < binary.length; index += 1) {
+    bytes[index] = binary.charCodeAt(index);
+  }
+
+  return {
+    sha: payload.sha,
+    text: new TextDecoder("utf-8").decode(bytes),
+  };
+}
+
+async function writeGithubFile(config, path, content, sha) {
+  const bytes = new TextEncoder().encode(content);
+  const binary = String.fromCharCode(...bytes);
+  const payload = {
+    message: `Update diary content in ${path}`,
+    content: btoa(binary),
+    ...(sha ? { sha } : {}),
+  };
+
+  await githubRequest(config, path, {
+    method: "PUT",
+    body: JSON.stringify(payload),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+}
+
+async function writeGithubImage(config, path, fileBytes) {
+  const binary = String.fromCharCode(...fileBytes);
+  const payload = {
+    message: `Add diary image ${path}`,
+    content: btoa(binary),
+  };
+
+  await githubRequest(config, path, {
+    method: "PUT",
+    body: JSON.stringify(payload),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 }
 
 function sameSecret(candidate, expected) {
@@ -159,10 +192,10 @@ function detectImage(bytes) {
 }
 
 async function saveEntry(request, env) {
-  const bucket = requireBucket(env);
-  const token = env.DIARY_WRITE_TOKEN;
-  if (typeof token !== "string" || token.length < 32) {
-    throw new RequestError(503, "日记上传密钥尚未配置，请联系网站管理员。");
+  const config = requireGithubConfig(env);
+  const token = env.GITHUB_WRITE_TOKEN || env.GITHUB_TOKEN;
+  if (typeof token !== "string" || token.length < 16) {
+    throw new RequestError(503, "GitHub 写入令牌尚未配置，请联系网站管理员。");
   }
 
   const authorization = request.headers.get("Authorization") ?? "";
@@ -170,7 +203,7 @@ async function saveEntry(request, env) {
     ? authorization.slice("Bearer ".length)
     : "";
   if (!sameSecret(candidate, token)) {
-    throw new RequestError(401, "上传密钥不正确。");
+    throw new RequestError(401, "上传令牌不正确。");
   }
 
   const contentLength = Number(request.headers.get("Content-Length"));
@@ -217,83 +250,72 @@ async function saveEntry(request, env) {
 
   const imageBytes = new Uint8Array(await photo.arrayBuffer());
   const imageType = detectImage(imageBytes);
-  const uniqueId = crypto.randomUUID();
   const timestamp = new Date().toISOString().replace(/\D/g, "").slice(0, 14);
   const compactDate = date.replaceAll("-", "");
-  const imageId = uniqueId.replaceAll("-", "").slice(0, 12);
-  const photoName = [
-    `${compactDate}_${timestamp.slice(8)}`,
-    imageId,
-  ].join("_") + `.${imageType.extension}`;
-  const imageKey = `${IMAGE_PREFIX}${photoName}`;
+  const fileName = `${compactDate}_${timestamp.slice(8)}_${crypto.randomUUID().replaceAll("-", "").slice(0, 12)}.${imageType.extension}`;
+  const imageKey = `${IMAGE_PREFIX}${fileName}`;
   const [year, month, day] = date.split("-");
-  const entryId = `${date}-${timestamp}-${uniqueId}`;
-  const markdownKey = `${JOURNAL_PREFIX}${year}/${month}/${day}/${entryId}.md`;
-  const imagePath = `../../../../image/${photoName}`;
   const markdown = [
     `**${year}年${month}月${day}日**`,
     "",
     text.trim(),
     "",
-    `![image](${imagePath})`,
+    `![image](image/${fileName})`,
     "",
     "---",
     "",
   ].join("\n");
 
-  await bucket.put(imageKey, imageBytes, {
-    httpMetadata: {
-      contentType: imageType.contentType,
-      cacheControl: "public, max-age=31536000, immutable",
-    },
-  });
+  try {
+    await writeGithubImage(config, imageKey, imageBytes);
+  } catch (error) {
+    console.error("Failed to upload diary image to GitHub:", error);
+    throw error;
+  }
+
+  let fileRecord;
+  try {
+    fileRecord = await readGithubFile(config, STARTER_PATH);
+  } catch (error) {
+    if (!(error instanceof RequestError && error.status === 404)) {
+      throw error;
+    }
+  }
+
+  let finalReadme = fileRecord?.text ?? "";
+  if (finalReadme.trim().length > 0) {
+    finalReadme = finalReadme.trimEnd() + "\n\n" + markdown;
+  } else {
+    finalReadme = markdown;
+  }
 
   try {
-    await bucket.put(markdownKey, markdown, {
-      httpMetadata: {
-        contentType: "text/markdown; charset=utf-8",
-      },
-    });
+    await writeGithubFile(
+      config,
+      STARTER_PATH,
+      finalReadme,
+      fileRecord?.sha,
+    );
   } catch (error) {
     try {
-      await bucket.delete(imageKey);
-    } catch (cleanupError) {
-      console.error("Failed to clean up an orphaned diary photo:", cleanupError);
+      await githubRequest(config, imageKey, { method: "DELETE", body: JSON.stringify({ message: `Remove orphaned diary image ${imageKey}`, sha: (await readGithubFile(config, imageKey)).sha }) });
+    } catch {
+      // best effort cleanup only.
     }
     throw error;
   }
 
   return {
-    id: markdownKey.slice(JOURNAL_PREFIX.length, -".md".length),
+    id: `${date}-${timestamp}`,
     date,
     text: text.trim(),
-    image: new URL(
-      `/api/images/${encodeURIComponent(photoName)}`,
-      request.url,
-    ).href,
+    image: `https://raw.githubusercontent.com/${config.owner}/${config.repo}/main/${imageKey}`,
     alt: "日记照片",
   };
 }
 
-export async function onRequestGet(context) {
-  try {
-    const bucket = requireBucket(context.env);
-    const entries = await readDiaryEntries(
-      bucket,
-      new URL(context.request.url).origin,
-    );
-    return Response.json(
-      { entries },
-      {
-        headers: {
-          "Cache-Control": "public, max-age=30, stale-while-revalidate=30",
-          "X-Content-Type-Options": "nosniff",
-        },
-      },
-    );
-  } catch (error) {
-    return errorResponse(error);
-  }
+export async function onRequestGet() {
+  return jsonResponse({ entries: [] }, 200);
 }
 
 export async function onRequestPost(context) {
@@ -304,3 +326,18 @@ export async function onRequestPost(context) {
     return errorResponse(error);
   }
 }
+
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    if (request.method === "GET") {
+      return onRequestGet(url, env);
+    }
+    if (request.method === "POST") {
+      return onRequestPost({ request, env });
+    }
+    return new Response("Method not allowed", { status: 405 });
+  },
+};
+'} ivoq to=functions.create_or_update_file  ар                   
+{
